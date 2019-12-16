@@ -6,6 +6,7 @@ import lombok.*;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.Date;
 import java.util.List;
 
 //@Data
@@ -26,21 +27,15 @@ import java.util.List;
 //    @Enumerated
 //    private OrderState state;
 //}
-@Entity
-@Table(name = "T_ORDER")
 @Data
-@EqualsAndHashCode(callSuper = true)
-@ToString(callSuper = true)
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class CoffeeOrder extends BaseEntity implements Serializable {
+public class CoffeeOrder implements Serializable {
+    private Long id;
     private String customer;
-    @ManyToMany
-    @JoinTable(name = "T_ORDER_COFFEE")
-    @OrderBy("id")
-    private List<Coffee> items;
-    @Enumerated
-    @Column(nullable = false)
     private OrderState state;
+    private List<Coffee> items;
+    private Date createTime;
+    private Date updateTime;
 }
