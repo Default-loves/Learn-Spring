@@ -1,8 +1,8 @@
-package com.junyi.json.view.demo.controller;
+package com.junyi.thymoleaf.view.demo.controller;
 
-import com.junyi.json.view.demo.controller.request.NewCoffeeRequest;
-import com.junyi.json.view.demo.model.Coffee;
-import com.junyi.json.view.demo.service.CoffeeService;
+import com.junyi.thymoleaf.view.demo.controller.request.NewCoffeeRequest;
+import com.junyi.thymoleaf.view.demo.service.CoffeeService;
+import com.junyi.thymoleaf.view.demo.model.Coffee;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.math.NumberUtils;
@@ -50,13 +50,6 @@ public class CoffeeController {
         return coffeeService.addCoffee(newCoffeeRequest.getName(), newCoffeeRequest.getPrice());
     }
 
-    @PostMapping(path = "/", consumes = MediaType.APPLICATION_JSON_UTF8_VALUE)
-    @ResponseBody
-    @ResponseStatus(HttpStatus.CREATED)
-    public Coffee addJsonCoffeeWithoutBingdingResult(@Valid @RequestBody NewCoffeeRequest newRequest) {
-        return coffeeService.addCoffee(newRequest.getName(), newRequest.getPrice());
-    }
-
     @PostMapping(path = "/", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
     @ResponseBody
     @ResponseStatus(HttpStatus.CREATED)
@@ -89,7 +82,8 @@ public class CoffeeController {
         return coffeeService.findAll();
     }
 
-    @RequestMapping(path = "/{id}", method = RequestMethod.GET)
+    @RequestMapping(path = "/{id}", method = RequestMethod.GET,
+            produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
     @ResponseBody
     public Coffee getById(@PathVariable Long id) {
         return coffeeService.getCoffee(id);
