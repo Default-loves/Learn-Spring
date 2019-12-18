@@ -1,20 +1,18 @@
-package com.junyi.thymoleaf.view.demo.service;
+package com.junyi.exception.demo.service;
 
-import com.junyi.thymoleaf.view.demo.model.Coffee;
-import com.junyi.thymoleaf.view.demo.model.CoffeeOrder;
-import com.junyi.thymoleaf.view.demo.model.OrderState;
-import com.junyi.thymoleaf.view.demo.repository.CoffeeOrderRepository;
+import com.junyi.exception.demo.model.Coffee;
+import com.junyi.exception.demo.model.CoffeeOrder;
+import com.junyi.exception.demo.model.OrderState;
+import com.junyi.exception.demo.repository.CoffeeOrderRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
 @Slf4j
 @Service
-@Transactional
 public class CoffeeOrderService {
 
     @Autowired

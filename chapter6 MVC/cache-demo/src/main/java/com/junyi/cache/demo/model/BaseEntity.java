@@ -1,4 +1,4 @@
-package com.junyi.thymoleaf.view.demo.model;
+package com.junyi.cache.demo.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.AllArgsConstructor;
