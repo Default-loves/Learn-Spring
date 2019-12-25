@@ -15,7 +15,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 @Entity
-@Table(name = "T_MANU")
+@Table(name = "t_manu")
 @Data
 @Builder
 @NoArgsConstructor

@@ -11,6 +11,9 @@ import org.springframework.jdbc.core.simple.SimpleJdbcInsert;
 
 import javax.sql.DataSource;
 
+/**
+ * 简单使用JDBCTemplate来查找数据
+ */
 @SpringBootApplication
 public class SimpleJdbcDemoApplication implements CommandLineRunner {
 	@Autowired

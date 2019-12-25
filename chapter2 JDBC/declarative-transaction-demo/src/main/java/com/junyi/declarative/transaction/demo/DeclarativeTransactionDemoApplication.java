@@ -9,9 +9,9 @@ import org.springframework.context.annotation.AdviceMode;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-/*
-声明式事务
- */
+/**
+ * 声明式事务
+ **/
 
 @SpringBootApplication
 @Slf4j

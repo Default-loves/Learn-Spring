@@ -12,6 +12,9 @@ import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * MyBatis 使用
+ */
 @SpringBootApplication
 @Slf4j
 @MapperScan("com.junyi.mybatis.demo.mapper")

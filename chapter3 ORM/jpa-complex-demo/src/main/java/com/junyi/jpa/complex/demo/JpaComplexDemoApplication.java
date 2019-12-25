@@ -23,6 +23,9 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * JPA的使用
+ */
 @SpringBootApplication
 @EnableJpaRepositories
 @Slf4j

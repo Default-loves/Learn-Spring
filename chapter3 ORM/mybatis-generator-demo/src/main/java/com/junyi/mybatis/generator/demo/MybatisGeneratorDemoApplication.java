@@ -71,8 +71,5 @@ public class MybatisGeneratorDemoApplication implements ApplicationRunner {
 		coffeeExample.createCriteria().andNameEqualTo("latte");
 		List<Coffee> list = coffeeMapper.selectByExample(coffeeExample);
 		list.forEach(o -> log.info("selectd coffee : {}", o));
-
-
-
 	}
 }

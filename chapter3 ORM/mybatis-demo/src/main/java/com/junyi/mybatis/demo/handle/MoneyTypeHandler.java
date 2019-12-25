@@ -11,7 +11,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 /**
- * 在Money和Long之间转换的TypeHandler
+ * 在 Money和Long 之间转换的TypeHandler
  */
 
 public class MoneyTypeHandler extends BaseTypeHandler<Money> {
