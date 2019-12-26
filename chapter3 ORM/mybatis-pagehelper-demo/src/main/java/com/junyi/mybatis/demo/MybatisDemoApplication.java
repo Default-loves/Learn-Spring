@@ -14,6 +14,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.List;
 
+/**
+ * 使用 PageHelper
+ */
+
 @SpringBootApplication
 @Slf4j
 @MapperScan("com.junyi.mybatis.demo.mapper")

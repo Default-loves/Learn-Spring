@@ -25,6 +25,10 @@ import java.util.List;
 import static org.springframework.data.mongodb.core.query.Criteria.where;
 import static org.springframework.data.mongodb.core.query.Query.query;
 
+/**
+ * 使用 MongoDB
+ */
+
 @SpringBootApplication
 @Slf4j
 public class MongoDBDemoApplication implements ApplicationRunner {
@@ -50,7 +54,7 @@ public class MongoDBDemoApplication implements ApplicationRunner {
 		log.info("Save coffee: {}", saved);
 
 		List<Coffee> list = mongoTemplate.find(
-				Query.query(Criteria.where("name").is("espresso")), Coffee.class);
+				query(where("name").is("espresso")), Coffee.class);
 		log.info("Find {} coffee", list.size());
 		list.forEach(o -> log.info("Coffee: {}", o));
 

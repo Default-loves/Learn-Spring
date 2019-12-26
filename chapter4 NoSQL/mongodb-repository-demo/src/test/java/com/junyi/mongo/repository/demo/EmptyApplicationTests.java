@@ -1,4 +1,4 @@
-package com.junyi.empty;
+package com.junyi.mongo.repository.demo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
