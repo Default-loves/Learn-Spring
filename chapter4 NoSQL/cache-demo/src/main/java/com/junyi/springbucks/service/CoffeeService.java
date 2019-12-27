@@ -22,6 +22,7 @@ public class CoffeeService {
     public List<Coffee> findAllCoffee() {
         return coffeeRepository.findAll ();
     }
+
     @CacheEvict
     public void reLoad() {
 

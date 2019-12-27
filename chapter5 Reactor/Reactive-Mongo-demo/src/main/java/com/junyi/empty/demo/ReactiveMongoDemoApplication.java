@@ -73,7 +73,6 @@ public class ReactiveMongoDemoApplication implements ApplicationRunner {
 					log.info("finish update :{}", c);
 				})
 				.subscribe(r -> log.info("result is : {}", r));
-
 	}
 
 	private List<Coffee> initCoffee() {
