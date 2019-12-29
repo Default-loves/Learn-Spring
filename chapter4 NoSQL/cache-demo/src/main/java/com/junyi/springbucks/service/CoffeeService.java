@@ -23,7 +23,7 @@ public class CoffeeService {
         return coffeeRepository.findAll ();
     }
 
-    @CacheEvict
+    @CacheEvict //将缓存清空
     public void reLoad() {
 
     }

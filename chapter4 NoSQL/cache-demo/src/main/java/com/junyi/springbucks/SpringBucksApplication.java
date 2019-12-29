@@ -29,7 +29,7 @@ import java.util.stream.Collectors;
 @EnableJpaRepositories
 @Slf4j
 @EnableTransactionManagement
-@EnableCaching(proxyTargetClass = true)
+@EnableCaching(proxyTargetClass = true)	//本质上缓存使用了AOP
 public class SpringBucksApplication implements ApplicationRunner {
 
 	@Autowired

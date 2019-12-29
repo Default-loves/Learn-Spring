@@ -54,7 +54,7 @@ public class SpringBucksApplication implements ApplicationRunner {
 
 	@Bean
 	public LettuceClientConfigurationBuilderCustomizer customizer() {
-		return builder -> builder.readFrom(ReadFrom.MASTER_PREFERRED);
+		return builder -> builder.readFrom(ReadFrom.MASTER_PREFERRED);	//配置优先读主节点，在这个例子中是没啥卵用的
 	}
 
 
