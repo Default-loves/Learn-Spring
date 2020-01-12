@@ -37,7 +37,6 @@ public class ReacitiveRedisApplication implements ApplicationRunner {
 		return new ReactiveStringRedisTemplate(factory);
 	}
 
-
 	public static void main(String[] args) {
 		SpringApplication.run(ReacitiveRedisApplication.class, args);
 	}

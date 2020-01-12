@@ -62,7 +62,6 @@ public class ReactiveMongoDemoApplication implements ApplicationRunner {
 				})
 				.count()
 				.subscribe(r -> log.info("Insert number: {}", r));
-
 	}
 
 	private void updatePrice() {

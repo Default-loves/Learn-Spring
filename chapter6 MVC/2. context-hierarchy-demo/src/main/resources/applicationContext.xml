@@ -6,6 +6,7 @@
         http://www.springframework.org/schema/aop
         http://www.springframework.org/schema/aop/spring-aop.xsd">
 
+    <!--这儿是下层，这儿也开启AOP的增强，虽然Aspect定义在上层，这儿也能使用-->
     <aop:aspectj-autoproxy/>
 
     <bean id="testBeanX" class="com.junyi.context.hierarchy.demo.context.TestBean">
