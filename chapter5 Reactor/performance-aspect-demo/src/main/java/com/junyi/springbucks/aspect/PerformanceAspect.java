@@ -6,7 +6,7 @@ import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.stereotype.Component;
-
+//只添加Aspect无法将这个类变成一个Bean，需要配合Component
 @Aspect
 @Component
 @Slf4j
