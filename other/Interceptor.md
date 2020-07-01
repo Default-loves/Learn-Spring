@@ -1,8 +1,6 @@
-> 本文大部分内容是对国外一个不错的文章 ：https://o7planning.org/en/11689/spring-boot-interceptors-tutorial 的翻译，做了适当的修改。
-
 ### 1.Interceptor介绍
 
-**拦截器(Interceptor)同** Filter 过滤器一样，它俩都是面向切面编程——AOP 的具体实现（AOP切面编程只是一种编程思想而已）。
+**拦截器(Interceptor)**同 Filter 过滤器一样，它俩都是面向切面编程——AOP 的具体实现（AOP切面编程只是一种编程思想而已）。
 
 你可以使用 Interceptor 来执行某些任务，例如在 **Controller** 处理请求之前编写日志，添加或更新配置......
 
@@ -11,8 +9,6 @@
 **Spring Interceptor**是一个非常类似于**Servlet Filter** 的概念 。
 
 ### 2.过滤器和拦截器的区别
-
-对于过滤器和拦截器的区别， [知乎@Kangol LI](https://www.zhihu.com/question/35225845/answer/61876681) 的回答很不错。
 
 - 过滤器（Filter）：当你有一堆东西的时候，你只希望选择符合你要求的某一些东西。定义这些要求的工具，就是过滤器。
 - 拦截器（Interceptor）：在一个流程正在进行的时候，你希望干预它的进展，甚至终止它进行，这是拦截器做的事情。
@@ -43,9 +39,7 @@ public void afterCompletion(HttpServletRequest request,
 
 ![Interceptor示意图](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-7/interceptor-spring.png)
 
-每个请求可能会通过许多拦截器。下图说明了这一点。
 
-![每个请求可能会通过许多拦截器](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-7/interceptor-spring.png)
 
 **`LogInterceptor`用于过滤所有请求**
 
@@ -139,10 +133,6 @@ public class OldLoginInterceptor extends HandlerInterceptorAdapter {
 
 }
 ```
-
-![](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-7/OldLoginInterceptor.png)
-
-![](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-7/OldLoginInterceptor2.png)
 
 **`AdminInterceptor`**
 
@@ -329,11 +319,3 @@ public class InterceptorTestController {
 ### 5.总结
 
 首先介绍了 Interceptor 的一些概念，然后通过一个简单的小案例走了一遍自定义实现 Interceptor 的过程。
-
-代办：
-
-1. Filter 和 Interceptor 执行顺序分析；
-2. Spring Boot 实现监听器；
-3. Filter、Interceptor、Listener对比分析；
-
-代码地址：https://github.com/Snailclimb/springboot-guide/tree/master/source-code/basis/springboot-filter-interceptor

@@ -111,7 +111,7 @@ System.out.println(userInformationList.getTotalPages());// 2
 System.out.println(userInformationList.getContent());
 ```
 
-## 加餐:自定以SQL语句的其他用法
+## 加餐:自定义SQL语句的其他用法
 
 下面我只介绍两种比较常用的：
 

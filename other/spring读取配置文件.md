@@ -97,7 +97,8 @@ public class ReadConfigPropertiesApplication implements InitializingBean {
     @Override
     public void afterPropertiesSet() {
         System.out.println(library.getLocation());
-        System.out.println(library.getBooks());    }
+        System.out.println(library.getBooks());    
+    }
 }
 ```
 
