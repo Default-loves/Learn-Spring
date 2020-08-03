@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util
+        http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <bean class="com.junyi.conversion.CustomizedPropertyEditorRegistrar"/>
+
+    <bean id="book" class="com.junyi.conversion.domain.BookForConversion">
+        <property name="id" value="3"/>
+        <property name="name" value="xiaohai"/>
+        <property name="context">
+            <value>
+                id = 3
+                name = xiaohai
+            </value>
+        </property>
+        <property name="text" ref="text"/>
+    </bean>
+
+
+    <util:properties id="text">
+        <prop key="user">ad</prop>
+        <prop key="pwd">123</prop>
+    </util:properties>
+
+    <bean id="conversionService" class="org.springframework.context.support.ConversionServiceFactoryBean">
+        <property name="converters">
+            <bean class="com.junyi.conversion.PropertiesToStringConverter"/>
+        </property>
+    </bean>
+
+
+</beans>

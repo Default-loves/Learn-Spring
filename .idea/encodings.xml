@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/1. simple-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/1. simple-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/3. simple-data-source/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/3. simple-data-source/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter2 JDBC/datasource-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter2 JDBC/datasource-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter2 JDBC/declarative-transaction-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter2 JDBC/declarative-transaction-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter2 JDBC/druid-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter2 JDBC/druid-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter2 JDBC/error-code-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter2 JDBC/error-code-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter2 JDBC/multi-datasource-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter2 JDBC/multi-datasource-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter2 JDBC/programmatic-transaction-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter2 JDBC/programmatic-transaction-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter2 JDBC/simple-jdbc-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter2 JDBC/simple-jdbc-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter3 ORM/jpa-complex-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter3 ORM/jpa-complex-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter3 ORM/jpa-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter3 ORM/jpa-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter3 ORM/mybatis-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter3 ORM/mybatis-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter3 ORM/mybatis-generator-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter3 ORM/mybatis-generator-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter3 ORM/mybatis-pagehelper-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter3 ORM/mybatis-pagehelper-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter3 ORM/springbucks/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter3 ORM/springbucks/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter4 NoSQL/1、mongodb-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter4 NoSQL/1、mongodb-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter4 NoSQL/2、mongodb-repository-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter4 NoSQL/2、mongodb-repository-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter4 NoSQL/3、jedis-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter4 NoSQL/3、jedis-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter4 NoSQL/4、cache-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter4 NoSQL/4、cache-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter4 NoSQL/5、cache-with-redis-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter4 NoSQL/5、cache-with-redis-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter4 NoSQL/6、redis-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter4 NoSQL/6、redis-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter4 NoSQL/7、redis-repository-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter4 NoSQL/7、redis-repository-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter5 Reactor/1、simple-reactor-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter5 Reactor/1、simple-reactor-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter5 Reactor/2、Reactive-Redis-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter5 Reactor/2、Reactive-Redis-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter5 Reactor/3、Reactive-Mongo-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter5 Reactor/3、Reactive-Mongo-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter5 Reactor/4、simple-r2dbc-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter5 Reactor/4、simple-r2dbc-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter5 Reactor/5、r2dbc-repository-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter5 Reactor/5、r2dbc-repository-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter5 Reactor/6、performance-aspect-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter5 Reactor/6、performance-aspect-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter5 Reactor/7、reactive-springbucks/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter5 Reactor/7、reactive-springbucks/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter6 MVC/1. simple-controller-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter6 MVC/1. simple-controller-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter6 MVC/2. context-hierarchy-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter6 MVC/2. context-hierarchy-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter6 MVC/3. complex-controller-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter6 MVC/3. complex-controller-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter6 MVC/4. more-complex-controller-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter6 MVC/4. more-complex-controller-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter6 MVC/5. json-view-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter6 MVC/5. json-view-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter6 MVC/6. thymeleaf-view-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter6 MVC/6. thymeleaf-view-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter6 MVC/7. cache-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter6 MVC/7. cache-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter6 MVC/8. exception-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter6 MVC/8. exception-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter6 MVC/9. springbucks/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter6 MVC/9. springbucks/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter7 Visit Web Resource/1、simple-resttemplate-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter7 Visit Web Resource/1、simple-resttemplate-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter7 Visit Web Resource/2、complex-resttemplate-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter7 Visit Web Resource/2、complex-resttemplate-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter7 Visit Web Resource/3、advanced-resttemplate-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter7 Visit Web Resource/3、advanced-resttemplate-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter7 Visit Web Resource/4、webclient-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter7 Visit Web Resource/4、webclient-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter7 Visit Web Resource/5、customer-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter7 Visit Web Resource/5、customer-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter8 Advanced Web Programming/hateoas-customer-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter8 Advanced Web Programming/hateoas-customer-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter8 Advanced Web Programming/hateoas-waiter-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter8 Advanced Web Programming/session-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter8 Advanced Web Programming/session-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter9 Spring Boot/autoconfigure-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter9 Spring Boot/autoconfigure-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter9 Spring Boot/property-source-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter9 Spring Boot/property-source-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/empty-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/empty-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/other/1. create-bean-xml/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/other/1. create-bean-xml/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/other/2. create-bean-configuration/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/other/2. create-bean-configuration/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/other/3. create-bean-factorybean/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/other/3. create-bean-factorybean/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/other/AnnoQualifier/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/other/AnnoQualifier/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/other/ApplicationContext-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/other/ApplicationContext-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/other/Autowire/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/other/Autowire/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/other/BeanFactory-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/other/BeanFactory-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/other/BeanPostProcessor-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/other/BeanPostProcessor-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/other/mysql-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/other/mysql-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/other/spring-boot-web-jsp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/programmatic-transaction/src/main/java" charset="UTF-8" />
+  </component>
+</project>

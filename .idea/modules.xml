@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Learn-Spring.iml" filepath="$PROJECT_DIR$/.idea/Learn-Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/other/1. create-bean-xml/abc-demo.iml" filepath="$PROJECT_DIR$/other/1. create-bean-xml/abc-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/other/BeanPostProcessor-demo/abc-demo (1).iml" filepath="$PROJECT_DIR$/other/BeanPostProcessor-demo/abc-demo (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/other/3. create-bean-factorybean/abc-demo (2).iml" filepath="$PROJECT_DIR$/other/3. create-bean-factorybean/abc-demo (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/other/2. create-bean-configuration/abc-demo (3).iml" filepath="$PROJECT_DIR$/other/2. create-bean-configuration/abc-demo (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring Framework/learn-spring-framework/annotation/annotation.iml" filepath="$PROJECT_DIR$/Spring Framework/learn-spring-framework/annotation/annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter9 Spring Boot/autoconfigure-demo/autoconfigure-demo.iml" filepath="$PROJECT_DIR$/chapter9 Spring Boot/autoconfigure-demo/autoconfigure-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring Framework/learn-spring-framework/bean-lifecycle/bean-lifecycle.iml" filepath="$PROJECT_DIR$/Spring Framework/learn-spring-framework/bean-lifecycle/bean-lifecycle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring Framework/learn-spring-framework/bean-scope/bean-scope.iml" filepath="$PROJECT_DIR$/Spring Framework/learn-spring-framework/bean-scope/bean-scope.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring Framework/learn-spring-framework/configuration-metadata/configuration-metadata.iml" filepath="$PROJECT_DIR$/Spring Framework/learn-spring-framework/configuration-metadata/configuration-metadata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter6 MVC/2. context-hierarchy-demo/context-hierarchy-demo.iml" filepath="$PROJECT_DIR$/chapter6 MVC/2. context-hierarchy-demo/context-hierarchy-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring Framework/learn-spring-framework/conversion/conversion.iml" filepath="$PROJECT_DIR$/Spring Framework/learn-spring-framework/conversion/conversion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter7 Visit Web Resource/5、customer-service/customer-service.iml" filepath="$PROJECT_DIR$/chapter7 Visit Web Resource/5、customer-service/customer-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter7 Visit Web Resource/1、simple-resttemplate-demo/customer-service (1).iml" filepath="$PROJECT_DIR$/chapter7 Visit Web Resource/1、simple-resttemplate-demo/customer-service (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter7 Visit Web Resource/2、complex-resttemplate-demo/customer-service (2).iml" filepath="$PROJECT_DIR$/chapter7 Visit Web Resource/2、complex-resttemplate-demo/customer-service (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter7 Visit Web Resource/3、advanced-resttemplate-demo/customer-service (3).iml" filepath="$PROJECT_DIR$/chapter7 Visit Web Resource/3、advanced-resttemplate-demo/customer-service (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring Framework/learn-spring-framework/data-binding/data-binding.iml" filepath="$PROJECT_DIR$/Spring Framework/learn-spring-framework/data-binding/data-binding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter2 JDBC/datasource-demo/datasource-demo.iml" filepath="$PROJECT_DIR$/chapter2 JDBC/datasource-demo/datasource-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter2 JDBC/declarative-transaction-demo/declarative-transaction-demo.iml" filepath="$PROJECT_DIR$/chapter2 JDBC/declarative-transaction-demo/declarative-transaction-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring Framework/learn-spring-framework/dependency-injection/dependency-injection.iml" filepath="$PROJECT_DIR$/Spring Framework/learn-spring-framework/dependency-injection/dependency-injection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring Framework/learn-spring-framework/dependency-lookup/dependency-lookup.iml" filepath="$PROJECT_DIR$/Spring Framework/learn-spring-framework/dependency-lookup/dependency-lookup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring Framework/learn-spring-framework/dependency-source/dependency-source.iml" filepath="$PROJECT_DIR$/Spring Framework/learn-spring-framework/dependency-source/dependency-source.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter2 JDBC/druid-demo/druid-demo.iml" filepath="$PROJECT_DIR$/chapter2 JDBC/druid-demo/druid-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter8 Advanced Web Programming/hateoas-customer-service/empty.iml" filepath="$PROJECT_DIR$/chapter8 Advanced Web Programming/hateoas-customer-service/empty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/other/Autowire/empty-demo.iml" filepath="$PROJECT_DIR$/other/Autowire/empty-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/other/AnnoQualifier/empty-demo (1).iml" filepath="$PROJECT_DIR$/other/AnnoQualifier/empty-demo (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/other/BeanFactory-demo/empty-demo (2).iml" filepath="$PROJECT_DIR$/other/BeanFactory-demo/empty-demo (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/other/ApplicationContext-demo/empty-demo (3).iml" filepath="$PROJECT_DIR$/other/ApplicationContext-demo/empty-demo (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/empty-demo/empty-demo (4).iml" filepath="$PROJECT_DIR$/empty-demo/empty-demo (4).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring Framework/learn-spring-framework/enent/enent.iml" filepath="$PROJECT_DIR$/Spring Framework/learn-spring-framework/enent/enent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring Framework/learn-spring-framework/environment/environment.iml" filepath="$PROJECT_DIR$/Spring Framework/learn-spring-framework/environment/environment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter2 JDBC/error-code-demo/error-code-demo.iml" filepath="$PROJECT_DIR$/chapter2 JDBC/error-code-demo/error-code-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring Framework/learn-spring-framework/generic/generic.iml" filepath="$PROJECT_DIR$/Spring Framework/learn-spring-framework/generic/generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter9 Spring Boot/greeting/greeting.iml" filepath="$PROJECT_DIR$/chapter9 Spring Boot/greeting/greeting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2. hello-world/hello-world.iml" filepath="$PROJECT_DIR$/2. hello-world/hello-world.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring Framework/learn-spring-framework/i18n/i18n.iml" filepath="$PROJECT_DIR$/Spring Framework/learn-spring-framework/i18n/i18n.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring Framework/learn-spring-framework/ioc-container/ioc-container.iml" filepath="$PROJECT_DIR$/Spring Framework/learn-spring-framework/ioc-container/ioc-container.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter4 NoSQL/3、jedis-demo/jedis-demo.iml" filepath="$PROJECT_DIR$/chapter4 NoSQL/3、jedis-demo/jedis-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter3 ORM/springbucks/jpa-complex-demo.iml" filepath="$PROJECT_DIR$/chapter3 ORM/springbucks/jpa-complex-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter3 ORM/jpa-complex-demo/jpa-complex-demo (1).iml" filepath="$PROJECT_DIR$/chapter3 ORM/jpa-complex-demo/jpa-complex-demo (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter3 ORM/jpa-demo/jpa-demo.iml" filepath="$PROJECT_DIR$/chapter3 ORM/jpa-demo/jpa-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter9 Spring Boot/junyi-spring-boot-autoconfigure/junyi-spring-boot-autoconfiguration.iml" filepath="$PROJECT_DIR$/chapter9 Spring Boot/junyi-spring-boot-autoconfigure/junyi-spring-boot-autoconfiguration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter9 Spring Boot/junyi-spring-boot-starter/junyi-spring-boot-starter.iml" filepath="$PROJECT_DIR$/chapter9 Spring Boot/junyi-spring-boot-starter/junyi-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring Framework/learn-spring-framework/learn-spring-framework.iml" filepath="$PROJECT_DIR$/Spring Framework/learn-spring-framework/learn-spring-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter4 NoSQL/1、mongodb-demo/mongodb-demo.iml" filepath="$PROJECT_DIR$/chapter4 NoSQL/1、mongodb-demo/mongodb-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter4 NoSQL/2、mongodb-repository-demo/mongodb-repository.iml" filepath="$PROJECT_DIR$/chapter4 NoSQL/2、mongodb-repository-demo/mongodb-repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter2 JDBC/multi-datasource-demo/multi-datasource-demo.iml" filepath="$PROJECT_DIR$/chapter2 JDBC/multi-datasource-demo/multi-datasource-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter3 ORM/mybatis-demo/mybatis-demo.iml" filepath="$PROJECT_DIR$/chapter3 ORM/mybatis-demo/mybatis-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter3 ORM/mybatis-generator-demo/mybatis-generator-demo.iml" filepath="$PROJECT_DIR$/chapter3 ORM/mybatis-generator-demo/mybatis-generator-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter3 ORM/mybatis-pagehelper-demo/mybatis-pagehelper-demo.iml" filepath="$PROJECT_DIR$/chapter3 ORM/mybatis-pagehelper-demo/mybatis-pagehelper-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/other/mysql-demo/mysql-demo.iml" filepath="$PROJECT_DIR$/other/mysql-demo/mysql-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter2 JDBC/programmatic-transaction-demo/programmatic-transaction.iml" filepath="$PROJECT_DIR$/chapter2 JDBC/programmatic-transaction-demo/programmatic-transaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/programmatic-transaction/programmatic-transaction (1).iml" filepath="$PROJECT_DIR$/programmatic-transaction/programmatic-transaction (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter9 Spring Boot/property-source-demo/property-source-demo.iml" filepath="$PROJECT_DIR$/chapter9 Spring Boot/property-source-demo/property-source-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter2 JDBC/pure-spring-datasource-demo/pure-spring-datasource-demo.iml" filepath="$PROJECT_DIR$/chapter2 JDBC/pure-spring-datasource-demo/pure-spring-datasource-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter5 Reactor/5、r2dbc-repository-demo/r2dbc-repository-demo.iml" filepath="$PROJECT_DIR$/chapter5 Reactor/5、r2dbc-repository-demo/r2dbc-repository-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter5 Reactor/3、Reactive-Mongo-demo/reactive-mongo-demo.iml" filepath="$PROJECT_DIR$/chapter5 Reactor/3、Reactive-Mongo-demo/reactive-mongo-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter5 Reactor/2、Reactive-Redis-demo/reactive-redis-demo.iml" filepath="$PROJECT_DIR$/chapter5 Reactor/2、Reactive-Redis-demo/reactive-redis-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter5 Reactor/7、reactive-springbucks/reactive-springbucks.iml" filepath="$PROJECT_DIR$/chapter5 Reactor/7、reactive-springbucks/reactive-springbucks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring Framework/learn-spring-framework/resource/resource.iml" filepath="$PROJECT_DIR$/Spring Framework/learn-spring-framework/resource/resource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter8 Advanced Web Programming/session-demo/session-demo.iml" filepath="$PROJECT_DIR$/chapter8 Advanced Web Programming/session-demo/session-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3. simple-data-source/simple-data-source.iml" filepath="$PROJECT_DIR$/3. simple-data-source/simple-data-source.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1. simple-demo/simple-demo.iml" filepath="$PROJECT_DIR$/1. simple-demo/simple-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter2 JDBC/simple-jdbc-demo/simple-jdbc-demo.iml" filepath="$PROJECT_DIR$/chapter2 JDBC/simple-jdbc-demo/simple-jdbc-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter5 Reactor/4、simple-r2dbc-demo/simple-r2dbc-demo.iml" filepath="$PROJECT_DIR$/chapter5 Reactor/4、simple-r2dbc-demo/simple-r2dbc-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter5 Reactor/1、simple-reactor-demo/simple-reactor-demo.iml" filepath="$PROJECT_DIR$/chapter5 Reactor/1、simple-reactor-demo/simple-reactor-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring Framework/learn-spring-framework/spring-bean/spring-bean.iml" filepath="$PROJECT_DIR$/Spring Framework/learn-spring-framework/spring-bean/spring-bean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/other/spring-boot-web-jsp/spring-boot-web-jsp.iml" filepath="$PROJECT_DIR$/other/spring-boot-web-jsp/spring-boot-web-jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter4 NoSQL/4、cache-demo/springbucks.iml" filepath="$PROJECT_DIR$/chapter4 NoSQL/4、cache-demo/springbucks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter4 NoSQL/6、redis-demo/springbucks (1).iml" filepath="$PROJECT_DIR$/chapter4 NoSQL/6、redis-demo/springbucks (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter4 NoSQL/5、cache-with-redis-demo/springbucks (2).iml" filepath="$PROJECT_DIR$/chapter4 NoSQL/5、cache-with-redis-demo/springbucks (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter4 NoSQL/7、redis-repository-demo/springbucks (3).iml" filepath="$PROJECT_DIR$/chapter4 NoSQL/7、redis-repository-demo/springbucks (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter5 Reactor/6、performance-aspect-demo/springbucks (4).iml" filepath="$PROJECT_DIR$/chapter5 Reactor/6、performance-aspect-demo/springbucks (4).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring Framework/learn-spring-framework/validation/validation.iml" filepath="$PROJECT_DIR$/Spring Framework/learn-spring-framework/validation/validation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter6 MVC/7. cache-demo/waiter-service.iml" filepath="$PROJECT_DIR$/chapter6 MVC/7. cache-demo/waiter-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter6 MVC/9. springbucks/waiter-service (1).iml" filepath="$PROJECT_DIR$/chapter6 MVC/9. springbucks/waiter-service (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter6 MVC/5. json-view-demo/waiter-service (2).iml" filepath="$PROJECT_DIR$/chapter6 MVC/5. json-view-demo/waiter-service (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter6 MVC/8. exception-demo/waiter-service (3).iml" filepath="$PROJECT_DIR$/chapter6 MVC/8. exception-demo/waiter-service (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter6 MVC/6. thymeleaf-view-demo/waiter-service (4).iml" filepath="$PROJECT_DIR$/chapter6 MVC/6. thymeleaf-view-demo/waiter-service (4).iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter6 MVC/1. simple-controller-demo/waiter-service (5).iml" filepath="$PROJECT_DIR$/chapter6 MVC/1. simple-controller-demo/waiter-service (5).iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter6 MVC/3. complex-controller-demo/waiter-service (6).iml" filepath="$PROJECT_DIR$/chapter6 MVC/3. complex-controller-demo/waiter-service (6).iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter6 MVC/4. more-complex-controller-demo/waiter-service (7).iml" filepath="$PROJECT_DIR$/chapter6 MVC/4. more-complex-controller-demo/waiter-service (7).iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter8 Advanced Web Programming/hateoas-waiter-service/waiter-service (8).iml" filepath="$PROJECT_DIR$/chapter8 Advanced Web Programming/hateoas-waiter-service/waiter-service (8).iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter7 Visit Web Resource/4、webclient-demo/webclient-demo.iml" filepath="$PROJECT_DIR$/chapter7 Visit Web Resource/4、webclient-demo/webclient-demo.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,3 @@
+com\junyi\bean\scope\BeanScopeDemo.class
+com\junyi\bean\scope\web\controller\IndexController.class
+com\junyi\bean\scope\web\WebConfiguration.class

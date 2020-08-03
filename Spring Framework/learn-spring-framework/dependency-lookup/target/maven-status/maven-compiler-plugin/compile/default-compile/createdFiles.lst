@@ -1,0 +1,4 @@
+com\junyi\dependency\lookup\HierarchicalDependencyLookupDemo.class
+com\junyi\dependency\lookup\ObjectProviderDemo.class
+com\junyi\dependency\lookup\TypeSafetyDependencyLookupDemo.class
+com\junyi\dependency\domain\Book.class

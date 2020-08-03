@@ -1,0 +1,8 @@
+com\junyi\ioc\dependency\injection\DependencyInjectionDemo.class
+com\junyi\ioc\dependency\lookup\DependencyLookupDemo.class
+com\junyi\ioc\domain\User.class
+com\junyi\ioc\repository\UserRepository.class
+com\junyi\ioc\container\AnnotationApplicationContextAsIoCContainer.class
+com\junyi\ioc\domain\SuperUser.class
+com\junyi\ioc\container\BeanFactoryAsIoCContainer.class
+com\junyi\ioc\annotation\Super.class

@@ -1,0 +1,13 @@
+com\junyi\spring\bean\factory\UserFactoryBean.class
+com\junyi\spring\bean\definition\BeanDefinitionDemo$Config2.class
+com\junyi\spring\bean\factory\DefaultUserFactory.class
+com\junyi\spring\bean\definition\BeanAliasDemo.class
+com\junyi\spring\bean\instantiation\InstantiationBeanDemo.class
+com\junyi\spring\bean\instantiation\SpecialInstantiationBeanDemo.class
+com\junyi\spring\bean\definition\BeanDefinitionCreatingDemo.class
+com\junyi\spring\bean\definition\BeanInializationAndDestroyDemo.class
+com\junyi\spring\bean\factory\UserFactory.class
+com\junyi\spring\bean\definition\SingletonBeanRegistrationDemo.class
+com\junyi\spring\bean\definition\BeanDefinitionDemo$Config1.class
+com\junyi\spring\bean\definition\BeanDefinitionDemo.class
+com\junyi\spring\bean\definition\BeanGarbageCollectionDemo.class

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/other/Autowire/pom.xml" />
+        <option value="$PROJECT_DIR$/other/mysql-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/other/AnnoQualifier/pom.xml" />
+        <option value="$PROJECT_DIR$/other/BeanFactory-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/other/1. create-bean-xml/pom.xml" />
+        <option value="$PROJECT_DIR$/other/spring-boot-web-jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/other/BeanPostProcessor-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/other/ApplicationContext-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/other/3. create-bean-factorybean/pom.xml" />
+        <option value="$PROJECT_DIR$/other/2. create-bean-configuration/pom.xml" />
+        <option value="$PROJECT_DIR$/empty-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter3 ORM/jpa-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter3 ORM/springbucks/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter3 ORM/mybatis-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter3 ORM/jpa-complex-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter3 ORM/mybatis-generator-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter3 ORM/mybatis-pagehelper-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter6 MVC/7. cache-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter6 MVC/9. springbucks/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter6 MVC/5. json-view-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter6 MVC/8. exception-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter6 MVC/6. thymeleaf-view-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter6 MVC/1. simple-controller-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter6 MVC/2. context-hierarchy-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter6 MVC/3. complex-controller-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter6 MVC/4. more-complex-controller-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter2 JDBC/druid-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter2 JDBC/datasource-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter2 JDBC/error-code-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter2 JDBC/simple-jdbc-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter2 JDBC/multi-datasource-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter2 JDBC/pure-spring-datasource-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter2 JDBC/declarative-transaction-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter2 JDBC/programmatic-transaction-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/1. simple-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/2. hello-world/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter4 NoSQL/3、jedis-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter4 NoSQL/4、cache-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter4 NoSQL/6、redis-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter4 NoSQL/1、mongodb-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter4 NoSQL/5、cache-with-redis-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter4 NoSQL/7、redis-repository-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter4 NoSQL/2、mongodb-repository-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter5 Reactor/4、simple-r2dbc-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter5 Reactor/1、simple-reactor-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter5 Reactor/2、Reactive-Redis-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter5 Reactor/3、Reactive-Mongo-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter5 Reactor/7、reactive-springbucks/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter5 Reactor/5、r2dbc-repository-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter5 Reactor/6、performance-aspect-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring Framework/learn-spring-framework/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter9 Spring Boot/greeting/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter9 Spring Boot/autoconfigure-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter9 Spring Boot/property-source-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter9 Spring Boot/junyi-spring-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter9 Spring Boot/junyi-spring-boot-autoconfigure/pom.xml" />
+        <option value="$PROJECT_DIR$/3. simple-data-source/pom.xml" />
+        <option value="$PROJECT_DIR$/programmatic-transaction/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter7 Visit Web Resource/4、webclient-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter7 Visit Web Resource/5、customer-service/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter7 Visit Web Resource/1、simple-resttemplate-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter7 Visit Web Resource/2、complex-resttemplate-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter7 Visit Web Resource/3、advanced-resttemplate-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter8 Advanced Web Programming/session-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter8 Advanced Web Programming/hateoas-waiter-service/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter8 Advanced Web Programming/hateoas-customer-service/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

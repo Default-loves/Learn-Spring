@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:user="http://abc.junyi.org/schema/user"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://abc.junyi.org/schema/user
+        http://abc.junyi.org/schema/user.xsd">
+
+<!--    <bean id="user" class="com.junyi.ioc.domain.User" >-->
+<!--        <property name="id" value="1"/>-->
+<!--        <property name="name" value="junyi" />-->
+<!--        <property name="description" value="default description" />-->
+<!--        <property name="hobby" value="READING,GAMING"/>-->
+<!--    </bean>-->
+
+
+    <user:user id="3" name="junyi" hobby="READING" description="123"/>
+
+    <bean id="yamlMap" class="org.springframework.beans.factory.config.YamlMapFactoryBean">
+        <property name="resources" value="classpath:\\META-INF\user.yaml"/>
+    </bean>
+</beans>

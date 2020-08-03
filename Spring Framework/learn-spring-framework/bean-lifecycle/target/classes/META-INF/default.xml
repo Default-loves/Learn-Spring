@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+
+    <bean id="book" class="com.junyi.bean.lifecycle.domain.Book" destroy-method="doDestroy">
+        <property name="id" value="1"/>
+        <property name="description" value="default 1"/>
+    </bean>
+    <bean id="merchant" class="com.junyi.bean.lifecycle.domain.Merchant">
+        <property name="id" value="1"/>
+        <property name="bookList">
+            <list>
+                <ref bean="book"/>
+            </list>
+        </property>
+    </bean>
+</beans>
