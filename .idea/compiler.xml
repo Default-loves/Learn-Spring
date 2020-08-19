@@ -7,87 +7,95 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="data-binding" />
-        <module name="waiter-service (6)" />
-        <module name="annotation" />
-        <module name="simple-r2dbc-demo" />
-        <module name="resource" />
-        <module name="declarative-transaction-demo" />
-        <module name="i18n" />
-        <module name="reactive-springbucks" />
-        <module name="empty-demo (3)" />
-        <module name="dependency-injection" />
-        <module name="spring-bean" />
-        <module name="webclient-demo" />
-        <module name="hello-world" />
-        <module name="r2dbc-repository-demo" />
-        <module name="waiter-service (5)" />
-        <module name="abc-demo (3)" />
-        <module name="datasource-demo" />
-        <module name="waiter-service (4)" />
-        <module name="bean-lifecycle" />
-        <module name="jpa-complex-demo (1)" />
-        <module name="generic" />
-        <module name="abc-demo" />
-        <module name="springbucks (4)" />
-        <module name="mongodb-demo" />
-        <module name="dependency-source" />
-        <module name="configuration-metadata" />
-        <module name="junyi-spring-boot-starter" />
-        <module name="empty-demo" />
-        <module name="ioc-container" />
-        <module name="abc-demo (2)" />
-        <module name="customer-service" />
-        <module name="customer-service (3)" />
-        <module name="greeting" />
-        <module name="session-demo" />
-        <module name="context-hierarchy-demo" />
-        <module name="programmatic-transaction" />
-        <module name="enent" />
-        <module name="environment" />
-        <module name="springbucks (3)" />
-        <module name="springbucks" />
-        <module name="simple-reactor-demo" />
-        <module name="waiter-service (1)" />
-        <module name="jpa-complex-demo" />
-        <module name="autoconfigure-demo" />
-        <module name="abc-demo (1)" />
-        <module name="waiter-service (3)" />
-        <module name="jedis-demo" />
-        <module name="customer-service (2)" />
-        <module name="waiter-service (8)" />
-        <module name="multi-datasource-demo" />
-        <module name="empty-demo (2)" />
-        <module name="spring-boot-web-jsp" />
-        <module name="validation" />
-        <module name="property-source-demo" />
-        <module name="error-code-demo" />
-        <module name="simple-jdbc-demo" />
-        <module name="waiter-service (2)" />
-        <module name="jpa-demo" />
-        <module name="simple-demo" />
-        <module name="mongodb-repository" />
-        <module name="pure-spring-datasource-demo" />
-        <module name="waiter-service" />
-        <module name="empty-demo (1)" />
-        <module name="customer-service (1)" />
-        <module name="dependency-lookup" />
-        <module name="conversion" />
-        <module name="mysql-demo" />
-        <module name="waiter-service (7)" />
-        <module name="reactive-redis-demo" />
-        <module name="bean-scope" />
-        <module name="junyi-spring-boot-autoconfiguration" />
-        <module name="springbucks (2)" />
-        <module name="springbucks (1)" />
-        <module name="simple-data-source" />
         <module name="druid-demo" />
-        <module name="reactive-mongo-demo" />
-        <module name="mybatis-pagehelper-demo" />
-        <module name="empty" />
-        <module name="mybatis-generator-demo" />
+        <module name="dependency-injection" />
         <module name="programmatic-transaction (1)" />
+        <module name="mongodb-demo" />
+        <module name="greeting" />
+        <module name="property-source-demo" />
+        <module name="programmatic-transaction" />
+        <module name="mongodb-repository" />
+        <module name="abc-demo (3)" />
+        <module name="reactive-redis-demo" />
+        <module name="declarative-transaction-demo" />
+        <module name="customer-service (3)" />
+        <module name="empty" />
+        <module name="configuration-metadata" />
+        <module name="autoconfigure-demo" />
+        <module name="waiter-service (5)" />
+        <module name="dependency-source" />
+        <module name="springbucks" />
+        <module name="springbucks (2)" />
+        <module name="waiter-service (9)" />
+        <module name="empty-demo (3)" />
+        <module name="bean-lifecycle" />
+        <module name="mybatis-generator-demo" />
+        <module name="waiter-service (1)" />
+        <module name="validation" />
+        <module name="resource" />
+        <module name="customer-service" />
+        <module name="simple-reactor-demo" />
+        <module name="jpa-complex-demo (1)" />
+        <module name="empty-demo (5)" />
+        <module name="context-hierarchy-demo" />
+        <module name="multi-datasource-demo" />
+        <module name="junyi-spring-boot-starter" />
+        <module name="abc-demo (4)" />
+        <module name="i18n" />
+        <module name="ioc-container" />
+        <module name="customer-service (2)" />
+        <module name="jpa-demo" />
+        <module name="waiter-service (4)" />
+        <module name="springbucks (1)" />
+        <module name="waiter-service (8)" />
+        <module name="simple-demo" />
         <module name="empty-demo (4)" />
+        <module name="springbucks (5)" />
         <module name="mybatis-demo" />
+        <module name="error-code-demo" />
+        <module name="jpa-complex-demo (2)" />
+        <module name="hello-world" />
+        <module name="waiter-service" />
+        <module name="customer-service (1)" />
+        <module name="abc-demo (1)" />
+        <module name="jedis-demo" />
+        <module name="simple-data-source" />
+        <module name="waiter-service (7)" />
+        <module name="springbucks (4)" />
+        <module name="jpa-complex-demo" />
+        <module name="empty-demo (1)" />
+        <module name="reactive-mongo-demo" />
+        <module name="bean-scope" />
+        <module name="conversion" />
+        <module name="waiter-service (3)" />
+        <module name="annotation" />
+        <module name="enent" />
+        <module name="normal" />
+        <module name="programmatic-transaction (2)" />
+        <module name="abc-demo" />
+        <module name="spring-boot-web-jsp" />
+        <module name="dependency-lookup" />
+        <module name="mybatis-pagehelper-demo" />
+        <module name="customer-service (4)" />
+        <module name="reactive-springbucks" />
+        <module name="session-demo" />
+        <module name="simple-r2dbc-demo" />
+        <module name="abc-demo (2)" />
+        <module name="generic" />
+        <module name="r2dbc-repository-demo" />
+        <module name="datasource-demo" />
+        <module name="environment" />
+        <module name="junyi-spring-boot-autoconfiguration" />
+        <module name="waiter-service (6)" />
+        <module name="empty-demo" />
+        <module name="springbucks (3)" />
+        <module name="mysql-demo" />
+        <module name="webclient-demo" />
+        <module name="simple-jdbc-demo" />
+        <module name="pure-spring-datasource-demo" />
+        <module name="empty-demo (2)" />
+        <module name="spring-bean" />
+        <module name="waiter-service (2)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -95,6 +103,7 @@
       <module name="abc-demo (1)" target="1.8" />
       <module name="abc-demo (2)" target="1.8" />
       <module name="abc-demo (3)" target="1.8" />
+      <module name="abc-demo (4)" target="1.8" />
       <module name="annotation" target="8" />
       <module name="autoconfigure-demo" target="1.8" />
       <module name="bean-lifecycle" target="8" />
@@ -106,6 +115,7 @@
       <module name="customer-service (1)" target="1.8" />
       <module name="customer-service (2)" target="1.8" />
       <module name="customer-service (3)" target="1.8" />
+      <module name="customer-service (4)" target="1.8" />
       <module name="data-binding" target="8" />
       <module name="datasource-demo" target="1.8" />
       <module name="declarative-transaction-demo" target="1.8" />
@@ -119,6 +129,7 @@
       <module name="empty-demo (2)" target="1.8" />
       <module name="empty-demo (3)" target="1.8" />
       <module name="empty-demo (4)" target="1.8" />
+      <module name="empty-demo (5)" target="1.8" />
       <module name="enent" target="8" />
       <module name="environment" target="8" />
       <module name="error-code-demo" target="1.8" />
@@ -130,6 +141,7 @@
       <module name="jedis-demo" target="1.8" />
       <module name="jpa-complex-demo" target="1.8" />
       <module name="jpa-complex-demo (1)" target="1.8" />
+      <module name="jpa-complex-demo (2)" target="1.8" />
       <module name="jpa-demo" target="1.8" />
       <module name="junyi-spring-boot-autoconfiguration" target="1.5" />
       <module name="junyi-spring-boot-starter" target="1.5" />
@@ -141,8 +153,10 @@
       <module name="mybatis-generator-demo" target="1.8" />
       <module name="mybatis-pagehelper-demo" target="1.8" />
       <module name="mysql-demo" target="1.8" />
+      <module name="normal" target="8" />
       <module name="programmatic-transaction" target="1.8" />
       <module name="programmatic-transaction (1)" target="1.8" />
+      <module name="programmatic-transaction (2)" target="1.8" />
       <module name="property-source-demo" target="1.8" />
       <module name="pure-spring-datasource-demo" target="1.5" />
       <module name="r2dbc-repository-demo" target="1.8" />
@@ -163,6 +177,7 @@
       <module name="springbucks (2)" target="1.8" />
       <module name="springbucks (3)" target="1.8" />
       <module name="springbucks (4)" target="1.8" />
+      <module name="springbucks (5)" target="1.8" />
       <module name="validation" target="8" />
       <module name="waiter-service" target="1.8" />
       <module name="waiter-service (1)" target="1.8" />
@@ -173,6 +188,7 @@
       <module name="waiter-service (6)" target="1.8" />
       <module name="waiter-service (7)" target="1.8" />
       <module name="waiter-service (8)" target="1.8" />
+      <module name="waiter-service (9)" target="1.8" />
       <module name="webclient-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -182,12 +198,14 @@
       <module name="abc-demo (1)" options="-parameters" />
       <module name="abc-demo (2)" options="-parameters" />
       <module name="abc-demo (3)" options="-parameters" />
+      <module name="abc-demo (4)" options="-parameters" />
       <module name="autoconfigure-demo" options="-parameters" />
       <module name="context-hierarchy-demo" options="-parameters" />
       <module name="customer-service" options="-parameters" />
       <module name="customer-service (1)" options="-parameters" />
       <module name="customer-service (2)" options="-parameters" />
       <module name="customer-service (3)" options="-parameters" />
+      <module name="customer-service (4)" options="-parameters" />
       <module name="datasource-demo" options="-parameters" />
       <module name="declarative-transaction-demo" options="-parameters" />
       <module name="druid-demo" options="-parameters" />
@@ -197,10 +215,12 @@
       <module name="empty-demo (2)" options="-parameters" />
       <module name="empty-demo (3)" options="-parameters" />
       <module name="empty-demo (4)" options="-parameters" />
+      <module name="empty-demo (5)" options="-parameters" />
       <module name="error-code-demo" options="-parameters" />
       <module name="jedis-demo" options="-parameters" />
       <module name="jpa-complex-demo" options="-parameters" />
       <module name="jpa-complex-demo (1)" options="-parameters" />
+      <module name="jpa-complex-demo (2)" options="-parameters" />
       <module name="jpa-demo" options="-parameters" />
       <module name="mongodb-demo" options="-parameters" />
       <module name="mongodb-repository" options="-parameters" />
@@ -211,6 +231,7 @@
       <module name="mysql-demo" options="-parameters" />
       <module name="programmatic-transaction" options="-parameters" />
       <module name="programmatic-transaction (1)" options="-parameters" />
+      <module name="programmatic-transaction (2)" options="-parameters" />
       <module name="property-source-demo" options="-parameters" />
       <module name="r2dbc-repository-demo" options="-parameters" />
       <module name="reactive-mongo-demo" options="-parameters" />
@@ -228,6 +249,7 @@
       <module name="springbucks (2)" options="-parameters" />
       <module name="springbucks (3)" options="-parameters" />
       <module name="springbucks (4)" options="-parameters" />
+      <module name="springbucks (5)" options="-parameters" />
       <module name="waiter-service" options="-parameters" />
       <module name="waiter-service (1)" options="-parameters" />
       <module name="waiter-service (2)" options="-parameters" />
@@ -237,6 +259,7 @@
       <module name="waiter-service (6)" options="-parameters" />
       <module name="waiter-service (7)" options="-parameters" />
       <module name="waiter-service (8)" options="-parameters" />
+      <module name="waiter-service (9)" options="-parameters" />
       <module name="webclient-demo" options="-parameters" />
     </option>
   </component>
