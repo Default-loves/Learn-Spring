@@ -16,6 +16,16 @@ public class Book implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
+    public Book() {
+    }
+
+    public Book(String description, String name, Date createDateTime, Integer authorId) {
+        this.description = description;
+        this.name = name;
+        this.createDateTime = createDateTime;
+        this.authorId = authorId;
+    }
+
     public Integer getId() {
         return id;
     }
@@ -56,19 +66,4 @@ public class Book implements Serializable {
         this.authorId = authorId;
     }
 
-    @Override
-    public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append(getClass().getSimpleName());
-        sb.append(" [");
-        sb.append("Hash = ").append(hashCode());
-        sb.append(", id=").append(id);
-        sb.append(", description=").append(description);
-        sb.append(", name=").append(name);
-        sb.append(", createDateTime=").append(createDateTime);
-        sb.append(", authorId=").append(authorId);
-        sb.append(", serialVersionUID=").append(serialVersionUID);
-        sb.append("]");
-        return sb.toString();
-    }
 }

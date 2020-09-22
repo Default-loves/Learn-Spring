@@ -7,6 +7,7 @@
             <pattern>[%d{yyyy-MM-dd' 'HH:mm:ss.sss}] [%C] [%t] [%L] [%-5p] %m%n</pattern>
         </layout>
     </appender>
+
     <!--获取比info级别高(包括info级别)但除error级别的日志-->
     <appender name="INFO-LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <filter class="ch.qos.logback.classic.filter.LevelFilter">
@@ -14,6 +15,7 @@
             <onMatch>DENY</onMatch>
             <onMismatch>ACCEPT</onMismatch>
         </filter>
+
         <encoder>
             <pattern>[%d{yyyy-MM-dd' 'HH:mm:ss.sss}] [%C] [%t] [%L] [%-5p] %m%n</pattern>
         </encoder>
@@ -26,6 +28,7 @@
         </rollingPolicy>
     </appender>
 
+    <!--只有 Error 级别-->
     <appender name="ERROR-LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
             <level>ERROR</level>
@@ -40,6 +43,8 @@
             <maxHistory>30</maxHistory>
         </rollingPolicy>
     </appender>
+
+
 
     <!-- 异步输出 -->
     <appender name="ASYNC-INFO" class="ch.qos.logback.classic.AsyncAppender">
@@ -61,8 +66,8 @@
     </appender>
 
     <root level="info">
-        <appender-ref ref="CONSOLE-LOG" />
-        <appender-ref ref="INFO-LOG" />
-        <appender-ref ref="ERROR-LOG" />
+        <appender-ref ref="CONSOLE-LOG"/>
+        <appender-ref ref="ASYNC-INFO"/>
+        <appender-ref ref="ASYNC-ERROR"/>
     </root>
 </configuration>

@@ -5,8 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Arrays;
+
 /**
- * 一个Spring Boot项目的基础设施：
+ * 一个Spring Boot项目的基础元素：
  * 分页处理
  * 统一的消息回复
  * 多环境配置
@@ -22,6 +24,8 @@ public class HelloWorldApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(HelloWorldApplication.class, args);
+
+
 	}
 
 }
