@@ -28,7 +28,7 @@
         </rollingPolicy>
     </appender>
 
-    <!--只有 Error 级别-->
+    <!--只有 Error 级别，ThresholdFilter 会将 error 级别以下的都过滤掉-->
     <appender name="ERROR-LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
             <level>ERROR</level>
