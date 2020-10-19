@@ -1,0 +1,107 @@
+[2020-10-19 13:41:37.037] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting Application on DESKTOP-IVESJ8P with PID 17052 (F:\GithubMy\my\Learn-Spring\Spring Boot\aop\target\classes started by Administrator in F:\GithubMy\my\Learn-Spring\Spring Boot)
+[2020-10-19 13:41:37.037] [org.springframework.boot.SpringApplication] [restartedMain] [651] [INFO ] No active profile set, falling back to default profiles: default
+[2020-10-19 13:41:37.037] [org.springframework.boot.logging.DeferredLog] [restartedMain] [225] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-10-19 13:41:37.037] [org.springframework.boot.logging.DeferredLog] [restartedMain] [225] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-10-19 13:41:39.039] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 12345 (http)
+[2020-10-19 13:41:39.039] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-12345"]
+[2020-10-19 13:41:39.039] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2020-10-19 13:41:39.039] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.37]
+[2020-10-19 13:41:39.039] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2020-10-19 13:41:39.039] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [285] [INFO ] Root WebApplicationContext: initialization completed in 2281 ms
+[2020-10-19 13:41:40.040] [org.springframework.context.support.AbstractApplicationContext] [restartedMain] [559] [WARN ] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookController': Unsatisfied dependency expressed through field 'bookService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.junyi.service.BookService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[2020-10-19 13:41:40.040] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Stopping service [Tomcat]
+[2020-10-19 13:41:40.040] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] [restartedMain] [136] [INFO ] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-10-19 13:42:05.005] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting Application on DESKTOP-IVESJ8P with PID 4656 (F:\GithubMy\my\Learn-Spring\Spring Boot\aop\target\classes started by Administrator in F:\GithubMy\my\Learn-Spring\Spring Boot)
+[2020-10-19 13:42:05.005] [org.springframework.boot.SpringApplication] [restartedMain] [651] [INFO ] No active profile set, falling back to default profiles: default
+[2020-10-19 13:42:05.005] [org.springframework.boot.logging.DeferredLog] [restartedMain] [225] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-10-19 13:42:05.005] [org.springframework.boot.logging.DeferredLog] [restartedMain] [225] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-10-19 13:42:07.007] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 12345 (http)
+[2020-10-19 13:42:07.007] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-12345"]
+[2020-10-19 13:42:07.007] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2020-10-19 13:42:07.007] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.37]
+[2020-10-19 13:42:08.008] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2020-10-19 13:42:08.008] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [285] [INFO ] Root WebApplicationContext: initialization completed in 2142 ms
+[2020-10-19 13:42:08.008] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-10-19 13:42:08.008] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2020-10-19 13:42:09.009] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-12345"]
+[2020-10-19 13:42:09.009] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 12345 (http) with context path ''
+[2020-10-19 13:42:09.009] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started Application in 3.807 seconds (JVM running for 4.529)
+[2020-10-19 13:42:46.046] [org.apache.juli.logging.DirectJDKLog] [http-nio-12345-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-10-19 13:42:46.046] [org.springframework.web.servlet.FrameworkServlet] [http-nio-12345-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2020-10-19 13:42:46.046] [org.springframework.web.servlet.FrameworkServlet] [http-nio-12345-exec-1] [547] [INFO ] Completed initialization in 13 ms
+[2020-10-19 13:42:46.046] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-12345-exec-1] [199] [WARN ] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+[2020-10-19 13:42:46.046] [com.junyi.interceptor.LogInterceptor] [http-nio-12345-exec-1] [23] [INFO ] add TRACE_ID
+[2020-10-19 13:42:59.059] [com.junyi.interceptor.LogInterceptor] [http-nio-12345-exec-3] [23] [INFO ] add TRACE_ID
+[2020-10-19 13:42:59.059] [com.junyi.aspect.RequestLogAspect] [http-nio-12345-exec-3] [50] [INFO ] Request Info      : {"classMethod":"com.junyi.controller.BookController.find","httpMethod":"GET","ip":"0:0:0:0:0:0:0:1","requestParams":{"book":{}},"result":{"id":1,"name":"apple"},"timeCost":34,"url":"http://localhost:12345/book/find"}
+[2020-10-19 13:50:30.030] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-8] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-10-19 13:50:31.031] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting Application on DESKTOP-IVESJ8P with PID 4656 (F:\GithubMy\my\Learn-Spring\Spring Boot\aop\target\classes started by Administrator in F:\GithubMy\my\Learn-Spring\Spring Boot)
+[2020-10-19 13:50:31.031] [org.springframework.boot.SpringApplication] [restartedMain] [651] [INFO ] No active profile set, falling back to default profiles: default
+[2020-10-19 13:50:31.031] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 12345 (http)
+[2020-10-19 13:50:31.031] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-12345"]
+[2020-10-19 13:50:31.031] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2020-10-19 13:50:31.031] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.37]
+[2020-10-19 13:50:31.031] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2020-10-19 13:50:31.031] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [285] [INFO ] Root WebApplicationContext: initialization completed in 634 ms
+[2020-10-19 13:50:32.032] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-10-19 13:50:32.032] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2020-10-19 13:50:32.032] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-12345"]
+[2020-10-19 13:50:32.032] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 12345 (http) with context path ''
+[2020-10-19 13:50:32.032] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started Application in 1.335 seconds (JVM running for 507.835)
+[2020-10-19 13:50:32.032] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2020-10-19 13:50:35.035] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-11] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-10-19 13:50:35.035] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting Application on DESKTOP-IVESJ8P with PID 4656 (F:\GithubMy\my\Learn-Spring\Spring Boot\aop\target\classes started by Administrator in F:\GithubMy\my\Learn-Spring\Spring Boot)
+[2020-10-19 13:50:35.035] [org.springframework.boot.SpringApplication] [restartedMain] [651] [INFO ] No active profile set, falling back to default profiles: default
+[2020-10-19 13:50:35.035] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 12345 (http)
+[2020-10-19 13:50:35.035] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-12345"]
+[2020-10-19 13:50:35.035] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2020-10-19 13:50:35.035] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.37]
+[2020-10-19 13:50:35.035] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2020-10-19 13:50:35.035] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [285] [INFO ] Root WebApplicationContext: initialization completed in 499 ms
+[2020-10-19 13:50:35.035] [org.springframework.context.support.AbstractApplicationContext] [restartedMain] [559] [WARN ] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookController': Unsatisfied dependency expressed through field 'bookService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.junyi.service.BookService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[2020-10-19 13:50:35.035] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Stopping service [Tomcat]
+[2020-10-19 13:50:35.035] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] [restartedMain] [136] [INFO ] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-10-19 13:50:37.037] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting Application on DESKTOP-IVESJ8P with PID 4656 (F:\GithubMy\my\Learn-Spring\Spring Boot\aop\target\classes started by Administrator in F:\GithubMy\my\Learn-Spring\Spring Boot)
+[2020-10-19 13:50:37.037] [org.springframework.boot.SpringApplication] [restartedMain] [651] [INFO ] No active profile set, falling back to default profiles: default
+[2020-10-19 13:50:37.037] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 12345 (http)
+[2020-10-19 13:50:37.037] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-12345"]
+[2020-10-19 13:50:37.037] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2020-10-19 13:50:37.037] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.37]
+[2020-10-19 13:50:38.038] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2020-10-19 13:50:38.038] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [285] [INFO ] Root WebApplicationContext: initialization completed in 481 ms
+[2020-10-19 13:50:38.038] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-10-19 13:50:38.038] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2020-10-19 13:50:38.038] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-12345"]
+[2020-10-19 13:50:38.038] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 12345 (http) with context path ''
+[2020-10-19 13:50:38.038] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started Application in 0.952 seconds (JVM running for 513.9)
+[2020-10-19 13:50:38.038] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2020-10-19 13:50:45.045] [org.apache.juli.logging.DirectJDKLog] [http-nio-12345-exec-9] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-10-19 13:50:45.045] [org.springframework.web.servlet.FrameworkServlet] [http-nio-12345-exec-9] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2020-10-19 13:50:45.045] [org.springframework.web.servlet.FrameworkServlet] [http-nio-12345-exec-9] [547] [INFO ] Completed initialization in 16 ms
+[2020-10-19 13:50:45.045] [com.junyi.interceptor.LogInterceptor] [http-nio-12345-exec-9] [23] [INFO ] add TRACE_ID
+[2020-10-19 13:50:45.045] [com.junyi.aspect.RequestLogAspect] [http-nio-12345-exec-9] [50] [INFO ] Request Info      : {"classMethod":"com.junyi.controller.BookController.find","httpMethod":"GET","ip":"0:0:0:0:0:0:0:1","requestParams":{"book":{}},"result":{"id":1,"name":"apple"},"timeCost":16,"url":"http://localhost:12345/book/find"}
+[2020-10-19 13:51:50.050] [com.junyi.interceptor.LogInterceptor] [http-nio-12345-exec-7] [23] [INFO ] add TRACE_ID
+[2020-10-19 13:51:50.050] [com.junyi.aspect.RequestLogAspect] [http-nio-12345-exec-7] [50] [INFO ] Request Info      : {"classMethod":"com.junyi.controller.BookController.bad","httpMethod":"GET","ip":"0:0:0:0:0:0:0:1","requestParams":{},"result":{"id":1,"name":"bad"},"timeCost":0,"url":"http://localhost:12345/book/bad"}
+[2020-10-19 13:53:05.005] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-18] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-10-19 13:53:05.005] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting Application on DESKTOP-IVESJ8P with PID 4656 (F:\GithubMy\my\Learn-Spring\Spring Boot\aop\target\classes started by Administrator in F:\GithubMy\my\Learn-Spring\Spring Boot)
+[2020-10-19 13:53:05.005] [org.springframework.boot.SpringApplication] [restartedMain] [651] [INFO ] No active profile set, falling back to default profiles: default
+[2020-10-19 13:53:06.006] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 12345 (http)
+[2020-10-19 13:53:06.006] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-12345"]
+[2020-10-19 13:53:06.006] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2020-10-19 13:53:06.006] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.37]
+[2020-10-19 13:53:06.006] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2020-10-19 13:53:06.006] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [285] [INFO ] Root WebApplicationContext: initialization completed in 360 ms
+[2020-10-19 13:53:06.006] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2020-10-19 13:53:06.006] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2020-10-19 13:53:06.006] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-12345"]
+[2020-10-19 13:53:06.006] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 12345 (http) with context path ''
+[2020-10-19 13:53:06.006] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started Application in 0.714 seconds (JVM running for 661.855)
+[2020-10-19 13:53:06.006] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2020-10-19 13:53:12.012] [org.apache.juli.logging.DirectJDKLog] [http-nio-12345-exec-9] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-10-19 13:53:12.012] [org.springframework.web.servlet.FrameworkServlet] [http-nio-12345-exec-9] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2020-10-19 13:53:12.012] [org.springframework.web.servlet.FrameworkServlet] [http-nio-12345-exec-9] [547] [INFO ] Completed initialization in 12 ms
+[2020-10-19 13:53:12.012] [com.junyi.interceptor.LogInterceptor] [http-nio-12345-exec-9] [23] [INFO ] add TRACE_ID
+[2020-10-19 13:53:12.012] [com.junyi.interceptor.LogInterceptor] [http-nio-12345-exec-9] [23] [INFO ] add TRACE_ID

@@ -28,6 +28,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="annotation" target="8" />
+      <module name="aop" target="8" />
       <module name="bean-lifecycle" target="8" />
       <module name="bean-scope" target="8" />
       <module name="configuration-metadata" target="8" />
