@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,36 +23,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbc6e351-d9d1-44cf-8ebc-7e94dbaf3a10" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Spring Framework/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Framework/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_mortbay_jasper_apache_el_8_5_49.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_mortbay_jasper_apache_el_8_5_49.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_springframework_spring_aop_4_3_26_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_springframework_spring_aop_4_3_26_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_springframework_spring_aop_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_springframework_spring_aop_5_2_2_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_springframework_spring_beans_4_3_26_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_springframework_spring_beans_4_3_26_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_springframework_spring_beans_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_springframework_spring_beans_5_2_2_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_springframework_spring_context_4_3_26_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_springframework_spring_context_4_3_26_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_springframework_spring_context_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_springframework_spring_context_5_2_2_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_springframework_spring_core_4_3_26_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_springframework_spring_core_4_3_26_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_springframework_spring_core_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_springframework_spring_core_5_2_2_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_springframework_spring_expression_4_3_26_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_springframework_spring_expression_4_3_26_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_springframework_spring_expression_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_springframework_spring_expression_5_2_2_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_2_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_springframework_spring_web_4_3_26_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_springframework_spring_web_4_3_26_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_springframework_spring_web_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_springframework_spring_web_5_2_2_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_26_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_26_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_2_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_yaml_snakeyaml_1_18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Framework/.idea/libraries/Maven__org_yaml_snakeyaml_1_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring Framework/learn-spring-framework/normal/normal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring Framework/learn-spring-framework/normal/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring Framework/learn-spring-framework/normal/src/main/java/com/junyi/Normal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring Framework/learn-spring-framework/normal/src/main/java/com/junyi/NormallApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session-and-cookie/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session-and-cookie/src/main/java/com/junyi/cookie/CookieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session-and-cookie/src/main/java/com/junyi/session/SessionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Framework/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Framework/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Framework/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Framework/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring Framework/learn-spring-framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring Framework/learn-spring-framework/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/chapter6 MVC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/chapter6 MVC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9. springbucks/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/9. springbucks/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -62,14 +62,39 @@
     </option>
   </component>
   <component name="ProjectId" id="1g1fXE8s4pwuBrBg9cFgUv4BQwR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Spring Framework" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/session-and-cookie/src/main/java/com/junyi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="SessionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.junyi.session.SessionDemo" />
+      <module name="session-and-cookie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.junyi.session.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SessionDemo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -95,9 +120,37 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597302919172">
+    <state x="679" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1597816815974">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597302919172" />
+    <state x="679" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597816815974" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597819716554">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597819716554" />
+    <state width="1877" height="240" key="GridCell.Tab.0.bottom" timestamp="1597819718812">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="240" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597819718812" />
+    <state width="1877" height="240" key="GridCell.Tab.0.center" timestamp="1597819718812">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="240" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597819718812" />
+    <state width="1877" height="240" key="GridCell.Tab.0.left" timestamp="1597819718812">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="240" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597819718812" />
+    <state width="1877" height="240" key="GridCell.Tab.0.right" timestamp="1597819718812">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="240" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597819718812" />
+    <state x="759" y="297" key="chooseDestDirectoryDialog" timestamp="1597817917150">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="759" y="297" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597817917150" />
+    <state x="334" y="180" key="new project wizard" timestamp="1597816866363">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1597816866363" />
   </component>
 </project>

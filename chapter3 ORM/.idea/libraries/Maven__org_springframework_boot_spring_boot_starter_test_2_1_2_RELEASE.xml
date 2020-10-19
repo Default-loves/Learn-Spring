@@ -1,6 +1,7 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework.boot:spring-boot-starter-test:2.1.2.RELEASE">
     <CLASSES>
+<<<<<<< HEAD:chapter3 ORM/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_2_RELEASE.xml
       <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-test/2.1.2.RELEASE/spring-boot-starter-test-2.1.2.RELEASE.jar!/" />
     </CLASSES>
     <JAVADOC>
@@ -8,6 +9,15 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-test/2.1.2.RELEASE/spring-boot-starter-test-2.1.2.RELEASE-sources.jar!/" />
+=======
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.2.0.RELEASE/spring-boot-starter-jdbc-2.2.0.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.2.0.RELEASE/spring-boot-starter-jdbc-2.2.0.RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.2.0.RELEASE/spring-boot-starter-jdbc-2.2.0.RELEASE-sources.jar!/" />
+>>>>>>> origin/work:.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_0_RELEASE.xml
     </SOURCES>
   </library>
 </component>

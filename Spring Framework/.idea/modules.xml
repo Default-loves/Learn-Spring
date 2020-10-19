@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Spring Framework.iml" filepath="$PROJECT_DIR$/.idea/Spring Framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn-spring-framework/aaa.iml" filepath="$PROJECT_DIR$/learn-spring-framework/aaa.iml" />
       <module fileurl="file://$PROJECT_DIR$/learn-spring-framework/annotation/annotation.iml" filepath="$PROJECT_DIR$/learn-spring-framework/annotation/annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/learn-spring-framework/bean-lifecycle/bean-lifecycle.iml" filepath="$PROJECT_DIR$/learn-spring-framework/bean-lifecycle/bean-lifecycle.iml" />
       <module fileurl="file://$PROJECT_DIR$/learn-spring-framework/bean-scope/bean-scope.iml" filepath="$PROJECT_DIR$/learn-spring-framework/bean-scope/bean-scope.iml" />
@@ -18,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/learn-spring-framework/i18n/i18n.iml" filepath="$PROJECT_DIR$/learn-spring-framework/i18n/i18n.iml" />
       <module fileurl="file://$PROJECT_DIR$/learn-spring-framework/ioc-container/ioc-container.iml" filepath="$PROJECT_DIR$/learn-spring-framework/ioc-container/ioc-container.iml" />
       <module fileurl="file://$PROJECT_DIR$/learn-spring-framework/learn-spring-framework.iml" filepath="$PROJECT_DIR$/learn-spring-framework/learn-spring-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn-spring-framework/normal/normal.iml" filepath="$PROJECT_DIR$/learn-spring-framework/normal/normal.iml" />
       <module fileurl="file://$PROJECT_DIR$/learn-spring-framework/resource/resource.iml" filepath="$PROJECT_DIR$/learn-spring-framework/resource/resource.iml" />
       <module fileurl="file://$PROJECT_DIR$/learn-spring-framework/spring-bean/spring-bean.iml" filepath="$PROJECT_DIR$/learn-spring-framework/spring-bean/spring-bean.iml" />
       <module fileurl="file://$PROJECT_DIR$/learn-spring-framework/validation/validation.iml" filepath="$PROJECT_DIR$/learn-spring-framework/validation/validation.iml" />

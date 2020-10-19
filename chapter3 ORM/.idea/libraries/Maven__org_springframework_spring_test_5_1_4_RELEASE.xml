@@ -1,6 +1,7 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework:spring-test:5.1.4.RELEASE">
     <CLASSES>
+<<<<<<< HEAD:chapter3 ORM/.idea/libraries/Maven__org_springframework_spring_test_5_1_4_RELEASE.xml
       <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.4.RELEASE/spring-test-5.1.4.RELEASE.jar!/" />
     </CLASSES>
     <JAVADOC>
@@ -8,6 +9,15 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.4.RELEASE/spring-test-5.1.4.RELEASE-sources.jar!/" />
+=======
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-jdbc/5.2.0.RELEASE/spring-jdbc-5.2.0.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-jdbc/5.2.0.RELEASE/spring-jdbc-5.2.0.RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-jdbc/5.2.0.RELEASE/spring-jdbc-5.2.0.RELEASE-sources.jar!/" />
+>>>>>>> origin/work:.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_0_RELEASE.xml
     </SOURCES>
   </library>
 </component>

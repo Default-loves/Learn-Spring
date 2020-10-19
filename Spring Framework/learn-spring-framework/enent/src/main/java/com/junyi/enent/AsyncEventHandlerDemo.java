@@ -26,6 +26,7 @@ public class AsyncEventHandlerDemo {
         GenericApplicationContext applicationContext = new GenericApplicationContext();
         applicationContext.addApplicationListener(new MySpringEventListener());
         applicationContext.refresh();
+
         ApplicationEventMulticaster applicationEventMulticaster =
                 applicationContext.getBean(APPLICATION_EVENT_MULTICASTER_BEAN_NAME, ApplicationEventMulticaster.class);
         if (applicationEventMulticaster instanceof SimpleApplicationEventMulticaster) {

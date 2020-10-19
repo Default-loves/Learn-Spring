@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="enent" />
+        <module name="annotation" />
+        <module name="normal" />
+        <module name="data-binding" />
+        <module name="dependency-injection" />
+        <module name="resource" />
+        <module name="dependency-lookup" />
+        <module name="ioc-container" />
+        <module name="i18n" />
+        <module name="generic" />
+        <module name="configuration-metadata" />
+        <module name="environment" />
+        <module name="dependency-source" />
+        <module name="spring-bean" />
+        <module name="bean-lifecycle" />
+        <module name="bean-scope" />
+        <module name="validation" />
+        <module name="conversion" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="annotation" target="8" />
+      <module name="aop" target="8" />
+      <module name="bean-lifecycle" target="8" />
+      <module name="bean-scope" target="8" />
+      <module name="configuration-metadata" target="8" />
+      <module name="conversion" target="8" />
+      <module name="data-binding" target="8" />
+      <module name="dependency-injection" target="8" />
+      <module name="dependency-lookup" target="8" />
+      <module name="dependency-source" target="8" />
+      <module name="enent" target="8" />
+      <module name="environment" target="8" />
+      <module name="generic" target="8" />
+      <module name="i18n" target="8" />
+      <module name="ioc-container" target="8" />
+      <module name="learn-spring-framework" target="8" />
+      <module name="normal" target="8" />
+      <module name="resource" target="8" />
+      <module name="spring-bean" target="8" />
+      <module name="validation" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

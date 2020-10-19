@@ -1,0 +1,36 @@
+[2020-10-19 13:41:40.040] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] [restartedMain] [40] [ERROR] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field bookService in com.junyi.controller.BookController required a bean of type 'com.junyi.service.BookService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.junyi.service.BookService' in your configuration.
+
+[2020-10-19 13:50:36.036] [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter] [restartedMain] [40] [ERROR] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field bookService in com.junyi.controller.BookController required a bean of type 'com.junyi.service.BookService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.junyi.service.BookService' in your configuration.
+
