@@ -53,7 +53,7 @@ public class CoffeeController {
     @PostMapping(path = "/", consumes = MediaType.APPLICATION_JSON_UTF8_VALUE)
     @ResponseBody
     @ResponseStatus(HttpStatus.CREATED)
-    public Coffee addJsonCoffeeWithoutBingdingResult(@Valid @RequestBody NewCoffeeRequest newRequest) {
+    public Coffee addJsonCoffeeWithoutBindingResult(@Valid @RequestBody NewCoffeeRequest newRequest) {
         return coffeeService.addCoffee(newRequest.getName(), newRequest.getPrice());
     }
 

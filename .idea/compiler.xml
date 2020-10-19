@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -47,12 +48,12 @@
         <module name="springbucks (3)" />
         <module name="springbucks" />
         <module name="simple-reactor-demo" />
-        <module name="waiter-service (1)" />
         <module name="jpa-complex-demo" />
         <module name="autoconfigure-demo" />
         <module name="abc-demo (1)" />
         <module name="waiter-service (3)" />
         <module name="jedis-demo" />
+        <module name="customer-service (1)" />
         <module name="customer-service (2)" />
         <module name="waiter-service (8)" />
         <module name="multi-datasource-demo" />
@@ -62,14 +63,12 @@
         <module name="property-source-demo" />
         <module name="error-code-demo" />
         <module name="simple-jdbc-demo" />
-        <module name="waiter-service (2)" />
         <module name="jpa-demo" />
-        <module name="simple-demo" />
         <module name="mongodb-repository" />
         <module name="pure-spring-datasource-demo" />
         <module name="waiter-service" />
         <module name="empty-demo (1)" />
-        <module name="customer-service (1)" />
+        <module name="waiter-service (2)" />
         <module name="dependency-lookup" />
         <module name="conversion" />
         <module name="mysql-demo" />
@@ -86,7 +85,7 @@
         <module name="empty" />
         <module name="mybatis-generator-demo" />
         <module name="programmatic-transaction (1)" />
-        <module name="empty-demo (4)" />
+        <module name="waiter-service (1)" />
         <module name="mybatis-demo" />
       </profile>
     </annotationProcessing>

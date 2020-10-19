@@ -1,6 +1,8 @@
 package com.junyi.exception.demo;
 
 import com.fasterxml.jackson.datatype.hibernate5.Hibernate5Module;
+import com.junyi.exception.demo.controller.GlobalControllerAdvice;
+import com.junyi.exception.demo.controller.exception.FormValidationException;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jackson.Jackson2ObjectMapperBuilderCustomizer;
@@ -12,6 +14,9 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
  * Spring MVC 的异常处理机制
  * FormValidationException用于处理 From表单的异常处理
  * GlobalControllerAdvice中处理ValidationException的异常
+ * @see GlobalControllerAdvice
+ * @see FormValidationException
+ *
  */
 
 

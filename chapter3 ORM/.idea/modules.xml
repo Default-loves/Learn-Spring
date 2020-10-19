@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/chapter3 ORM.iml" filepath="$PROJECT_DIR$/.idea/chapter3 ORM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbucks/jpa-complex-demo.iml" filepath="$PROJECT_DIR$/springbucks/jpa-complex-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jpa-complex-demo/jpa-complex-demo (1).iml" filepath="$PROJECT_DIR$/jpa-complex-demo/jpa-complex-demo (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/jpa-demo/jpa-demo.iml" filepath="$PROJECT_DIR$/jpa-demo/jpa-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-demo/mybatis-demo.iml" filepath="$PROJECT_DIR$/mybatis-demo/mybatis-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-generator-demo/mybatis-generator-demo.iml" filepath="$PROJECT_DIR$/mybatis-generator-demo/mybatis-generator-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-pagehelper-demo/mybatis-pagehelper-demo.iml" filepath="$PROJECT_DIR$/mybatis-pagehelper-demo/mybatis-pagehelper-demo.iml" />
+    </modules>
+  </component>
+</project>

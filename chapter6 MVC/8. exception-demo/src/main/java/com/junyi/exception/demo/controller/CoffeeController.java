@@ -41,7 +41,7 @@ public class CoffeeController {
     @ResponseBody
     @ResponseStatus(HttpStatus.CREATED)
     public Coffee addCoffee(@Valid NewCoffeeRequest newCoffee, BindingResult result) {
-        if ( result.hasErrors()) {
+        if (result.hasErrors()) {
             log.warn("Bind Error:{}", result);
             throw new FormValidationException(result);
         }

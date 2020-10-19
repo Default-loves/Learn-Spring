@@ -18,7 +18,6 @@ public class WaiterServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(WaiterServiceApplication.class, args);
-
 	}
 
 }

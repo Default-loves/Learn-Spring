@@ -16,6 +16,7 @@ import javax.validation.constraints.NotNull;
 public class NewCoffeeRequest {
     @NotEmpty
     private String name;
+
     @NotNull
     private Money price;
 }

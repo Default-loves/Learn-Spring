@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mybatis-pagehelper-demo" />
+        <module name="jpa-demo" />
+        <module name="mybatis-generator-demo" />
+        <module name="jpa-complex-demo" />
+        <module name="mybatis-demo" />
+        <module name="jpa-complex-demo (1)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jpa-complex-demo" target="1.8" />
+      <module name="jpa-complex-demo (1)" target="1.8" />
+      <module name="jpa-demo" target="1.8" />
+      <module name="mybatis-demo" target="1.8" />
+      <module name="mybatis-generator-demo" target="1.8" />
+      <module name="mybatis-pagehelper-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="jpa-complex-demo" options="-parameters" />
+      <module name="jpa-complex-demo (1)" options="-parameters" />
+      <module name="jpa-demo" options="-parameters" />
+      <module name="mybatis-demo" options="-parameters" />
+      <module name="mybatis-generator-demo" options="-parameters" />
+      <module name="mybatis-pagehelper-demo" options="-parameters" />
+    </option>
+  </component>
+</project>
