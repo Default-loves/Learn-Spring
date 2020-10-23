@@ -7,7 +7,13 @@
       <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/5.1.2.RELEASE/spring-core-5.1.2.RELEASE-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
+<<<<<<< HEAD
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.2.RELEASE/spring-core-5.1.2.RELEASE-sources.jar!/" />
+      <root url="file://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.2.RELEASE" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE-sources.jar!/" />
+=======
       <root url="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/5.1.2.RELEASE/spring-core-5.1.2.RELEASE-sources.jar!/" />
+>>>>>>> origin/work
     </SOURCES>
   </library>
 </component>

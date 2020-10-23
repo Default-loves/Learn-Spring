@@ -1,5 +1,7 @@
 package com.junyi.simplejdbcdemo;
 
+import com.junyi.simplejdbcdemo.dao.BatchFooDao;
+import com.junyi.simplejdbcdemo.dao.FooDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

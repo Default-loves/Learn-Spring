@@ -8,6 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpSession;
 
+/**
+ * 基于Redis的HttpSession，实现分布式Session，将Session信息保存在Redis中
+ */
+
 @SpringBootApplication
 @EnableRedisHttpSession
 @RestController

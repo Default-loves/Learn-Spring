@@ -1,6 +1,7 @@
 package com.junyi.cache.demo;
 
 import com.fasterxml.jackson.datatype.hibernate5.Hibernate5Module;
+import com.junyi.cache.demo.controller.CoffeeController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jackson.Jackson2ObjectMapperBuilderCustomizer;
@@ -10,8 +11,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 /**
  *  静态资源的访问、在CoffeeController中返回ResponseEntity
- *  访问方式：http:localhost:8080/static/spring.png
- *  额外：静态资源最好通过CDN(Content Dilivery Network)进行获取
+ *  访问静态资源：http:localhost:8080/static/spring.png，在application.properties文件中配置了静态资源的路径
+ *  P.s：静态资源最好通过CDN(Content Dilivery Network)进行获取
+ *
+ * @see CoffeeController
  */
 
 

@@ -10,6 +10,9 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+/**
+ * 层次性的应用上下文AOP实例
+ */
 @SpringBootApplication
 @Slf4j
 public class ContextHierarchyDemoApplication implements ApplicationRunner {

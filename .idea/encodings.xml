@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/1. simple-demo/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/1. simple-demo/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/3. simple-data-source/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/3. simple-data-source/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chapter2 JDBC/datasource-demo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chapter2 JDBC/datasource-demo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chapter2 JDBC/declarative-transaction-demo/src/main/java" charset="UTF-8" />
@@ -75,8 +71,8 @@
     <file url="file://$PROJECT_DIR$/chapter6 MVC/7. cache-demo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chapter6 MVC/8. exception-demo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chapter6 MVC/8. exception-demo/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/chapter6 MVC/9. springbucks/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/chapter6 MVC/9. springbucks/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter6 MVC/9. interceptor-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter6 MVC/9. interceptor-demo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chapter7 Visit Web Resource/1、simple-resttemplate-demo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chapter7 Visit Web Resource/1、simple-resttemplate-demo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chapter7 Visit Web Resource/2、complex-resttemplate-demo/src/main/java" charset="UTF-8" />
@@ -96,8 +92,6 @@
     <file url="file://$PROJECT_DIR$/chapter9 Spring Boot/autoconfigure-demo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chapter9 Spring Boot/property-source-demo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chapter9 Spring Boot/property-source-demo/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/empty-demo/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/empty-demo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/other/1. create-bean-xml/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/other/1. create-bean-xml/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/other/2. create-bean-configuration/src/main/java" charset="UTF-8" />
@@ -117,6 +111,5 @@
     <file url="file://$PROJECT_DIR$/other/mysql-demo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/other/mysql-demo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/other/spring-boot-web-jsp/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/programmatic-transaction/src/main/java" charset="UTF-8" />
   </component>
 </project>

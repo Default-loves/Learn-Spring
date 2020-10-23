@@ -26,6 +26,39 @@
         <module name="waiter-service (5)" />
         <module name="dependency-source" />
         <module name="springbucks" />
+<<<<<<< HEAD
+        <module name="simple-reactor-demo" />
+        <module name="jpa-complex-demo" />
+        <module name="autoconfigure-demo" />
+        <module name="abc-demo (1)" />
+        <module name="waiter-service (3)" />
+        <module name="jedis-demo" />
+        <module name="customer-service (1)" />
+        <module name="customer-service (2)" />
+        <module name="waiter-service (8)" />
+        <module name="multi-datasource-demo" />
+        <module name="empty-demo (2)" />
+        <module name="spring-boot-web-jsp" />
+        <module name="validation" />
+        <module name="property-source-demo" />
+        <module name="error-code-demo" />
+        <module name="simple-jdbc-demo" />
+        <module name="jpa-demo" />
+        <module name="mongodb-repository" />
+        <module name="pure-spring-datasource-demo" />
+        <module name="waiter-service" />
+        <module name="empty-demo (1)" />
+        <module name="waiter-service (2)" />
+        <module name="dependency-lookup" />
+        <module name="conversion" />
+        <module name="mysql-demo" />
+        <module name="waiter-service (7)" />
+        <module name="reactive-redis-demo" />
+        <module name="bean-scope" />
+        <module name="junyi-spring-boot-autoconfiguration" />
+        <module name="springbucks (2)" />
+        <module name="springbucks (1)" />
+=======
         <module name="springbucks (2)" />
         <module name="waiter-service (9)" />
         <module name="empty-demo (3)" />
@@ -60,6 +93,7 @@
         <module name="customer-service (1)" />
         <module name="abc-demo (1)" />
         <module name="jedis-demo" />
+>>>>>>> origin/work
         <module name="simple-data-source" />
         <module name="waiter-service (7)" />
         <module name="springbucks (4)" />
@@ -77,6 +111,13 @@
         <module name="spring-boot-web-jsp" />
         <module name="dependency-lookup" />
         <module name="mybatis-pagehelper-demo" />
+<<<<<<< HEAD
+        <module name="empty" />
+        <module name="mybatis-generator-demo" />
+        <module name="programmatic-transaction (1)" />
+        <module name="waiter-service (1)" />
+        <module name="mybatis-demo" />
+=======
         <module name="customer-service (4)" />
         <module name="reactive-springbucks" />
         <module name="session-demo" />
@@ -97,6 +138,7 @@
         <module name="empty-demo (2)" />
         <module name="spring-bean" />
         <module name="waiter-service (2)" />
+>>>>>>> origin/work
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

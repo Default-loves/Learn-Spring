@@ -9,8 +9,12 @@ import javax.validation.ValidationException;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @see RestControllerAdvice，将方法的返回值作为ResponseBody返回给前端
+ */
 @RestControllerAdvice
 public class GlobalControllerAdvice {
+
     @ExceptionHandler(ValidationException.class)
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     public Map<String, String> validationExceptionHandler(ValidationException exception) {
