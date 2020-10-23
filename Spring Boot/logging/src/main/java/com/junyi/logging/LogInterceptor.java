@@ -20,7 +20,6 @@ public class LogInterceptor implements HandlerInterceptor {
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        log.info("add TRACE_ID");
         String traceId = java.util.UUID.randomUUID().toString().replaceAll("-", "").toUpperCase();
         ThreadContext.put(TRACE_ID, traceId);
 

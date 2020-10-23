@@ -1,5 +1,0 @@
-[2020-09-21 11:54:08.008] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting Application on DESKTOP-IVESJ8P with PID 16148 (F:\GithubMy\my\Learn-Spring\Spring Boot\logging\target\classes started by Administrator in F:\GithubMy\my\Learn-Spring\Spring Boot)
-[2020-09-21 11:54:08.008] [org.springframework.boot.SpringApplication] [main] [651] [INFO ] No active profile set, falling back to default profiles: default
-[2020-09-21 11:54:09.009] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started Application in 1.327 seconds (JVM running for 1.826)
-[2020-09-21 11:54:09.009] [com.junyi.logging.Application] [main] [22] [INFO ] apple
-[2020-09-21 11:54:09.009] [com.junyi.logging.Application] [main] [24] [WARN ] apple

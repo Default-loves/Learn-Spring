@@ -4,9 +4,10 @@
 
     <appender name="CONSOLE-LOG" class="ch.qos.logback.core.ConsoleAppender">
         <layout class="ch.qos.logback.classic.PatternLayout">
-            <pattern>[%d{yyyy-MM-dd' 'HH:mm:ss.sss}] [%C] [%t] [%L] [%-5p] %m%n</pattern>
+            <pattern>[TRACEID:%X{traceId}] [%d{yyyy-MM-dd' 'HH:mm:ss.sss}] [%C] [%t] [%L] [%-5p] %m%n</pattern>
         </layout>
     </appender>
+
 
     <!--获取比info级别高(包括info级别)但除error级别的日志-->
     <appender name="INFO-LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -28,7 +29,24 @@
         </rollingPolicy>
     </appender>
 
-    <!--只有 Error 级别，ThresholdFilter 会将 error 级别以下的都过滤掉-->
+
+    <!--controller日志-->
+    <appender name="CONTROLLER-LOG" class="ch.qos.logback.core.FileAppender">
+        <file>log/controller.log</file>
+        <encoder>
+            <pattern>[%d{yyyy-MM-dd' 'HH:mm:ss.sss}] [%C] [%t] [%L] [%-5p] %m%n</pattern>
+        </encoder>
+    </appender>
+
+    <!--service日志-->
+    <appender name="SERVICE-LOG" class="ch.qos.logback.core.FileAppender">
+        <file>log/service.log</file>
+        <encoder>
+            <pattern>[%d{yyyy-MM-dd' 'HH:mm:ss.sss}] [%C] [%t] [%L] [%-5p] %m%n</pattern>
+        </encoder>
+    </appender>
+
+    <!--只有 Error 级别-->
     <appender name="ERROR-LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
             <level>ERROR</level>
@@ -65,9 +83,21 @@
         <appender-ref ref="ERROR-LOG"/>
     </appender>
 
+
+    <logger name="com.junyi.logging.controller" additivity="false">
+        <appender-ref ref="CONTROLLER-LOG" />
+    </logger>
+
+    <logger name="com.junyi.logging.service" level="debug" additivity="false">
+        <appender-ref ref="SERVICE-LOG" />
+    </logger>
+    <!-- All < Trace < Debug < Info < Warn < Error < Fatal < OFF. -->
+    <!-- 程序会打印高于或等于所设置级别的日志，设置的日志等级越高，打印出来的日志就越少。-->
     <root level="info">
         <appender-ref ref="CONSOLE-LOG"/>
-        <appender-ref ref="ASYNC-INFO"/>
-        <appender-ref ref="ASYNC-ERROR"/>
+<!--        <appender-ref ref="ASYNC-INFO"/>-->
+<!--        <appender-ref ref="ASYNC-ERROR"/>-->
+        <appender-ref ref="ERROR-LOG"/>
+        <appender-ref ref="INFO-LOG"/>
     </root>
 </configuration>
