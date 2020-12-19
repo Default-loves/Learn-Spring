@@ -1,0 +1,1 @@
+**Caffeine**是一个高性能，高命中率，低内存占用，near optimal 的本地缓存，简单来说它是 Guava Cache 的优化加强版，有些文章把 Caffeine 称为“新一代的缓存”、“现代缓存之王”。
