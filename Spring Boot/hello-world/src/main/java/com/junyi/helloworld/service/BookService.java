@@ -1,6 +1,8 @@
 package com.junyi.helloworld.service;
 
 import com.junyi.helloworld.entity.Book;
+import com.junyi.helloworld.vo.BookVO;
+import com.junyi.helloworld.vo.Response;
 
 import java.util.List;
 
@@ -10,7 +12,7 @@ import java.util.List;
  * @author: junyi Xu
  * @description:
  */
-public interface BookService {
+public interface BookService extends BaseService<BookVO, Response>{
 
     List<Book> findAll();
 }

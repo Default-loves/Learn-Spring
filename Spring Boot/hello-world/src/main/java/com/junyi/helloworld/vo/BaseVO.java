@@ -2,6 +2,7 @@ package com.junyi.helloworld.vo;
 
 import lombok.Data;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -11,7 +12,7 @@ import java.util.Date;
  * @description:
  */
 
-public abstract class BaseVo<T> {
+public abstract class BaseVO<T>  implements Serializable {
 
     private Date createDate;
     /** one page have 10 element */
@@ -23,7 +24,7 @@ public abstract class BaseVo<T> {
      * View Object (VO) will extend this class, and use this function to copy properties, return a entity
      * @return POJO
      */
-    abstract T changeToEntity();
+    abstract T buildEntity();
 
     public Date getCreateDate() {
         return createDate;

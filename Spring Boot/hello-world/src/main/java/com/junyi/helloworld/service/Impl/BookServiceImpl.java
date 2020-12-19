@@ -3,6 +3,8 @@ package com.junyi.helloworld.service.Impl;
 import com.junyi.helloworld.entity.Book;
 import com.junyi.helloworld.mapper.BookMapper;
 import com.junyi.helloworld.service.BookService;
+import com.junyi.helloworld.vo.BookVO;
+import com.junyi.helloworld.vo.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -23,5 +25,10 @@ class BookServiceImpl implements BookService {
     @Override
     public List<Book> findAll() {
         return bookMapper.selectAll();
+    }
+
+    @Override
+    public List<Response> list(BookVO bookVo) {
+        return null;
     }
 }

@@ -6,7 +6,7 @@ import com.junyi.helloworld.util.BeanCopierUtil;
 import java.io.Serializable;
 import java.util.Date;
 
-public class BookVo extends BaseVo<Book> implements Serializable {
+public class BookVO extends BaseVO<Book> {
     private Integer id;
 
     private String description;
@@ -76,7 +76,7 @@ public class BookVo extends BaseVo<Book> implements Serializable {
     }
 
     @Override
-    Book changeToEntity() {
+    Book buildEntity() {
         Book target = new Book();
         BeanCopierUtil.copyProperties(this, target);
         return target;
