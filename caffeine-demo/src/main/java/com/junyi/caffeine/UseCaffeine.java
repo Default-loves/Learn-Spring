@@ -1,7 +1,9 @@
-package com.junyi.empty;
+package com.junyi.caffeine;
 
+import com.junyi.caffeine.entity.Book;
+import lombok.extern.slf4j.Slf4j;
+import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cglib.core.internal.LoadingCache;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -23,7 +25,8 @@ import java.util.concurrent.Executor;
 * @description:
 */
 @RestController
-public class CaffeineCacheController {
+@Slf4j
+public class UseCaffeine {
 
     @Autowired
     BookService bookService;
@@ -52,11 +55,11 @@ public class CaffeineCacheController {
     }
 
     private Object createExpensiveGraph(String key) {
-        System.out.println("缓存不存在或过期，调用了createExpensiveGraph方法获取缓存key的值");
+        log.info("缓存不存在或过期，调用了createExpensiveGraph方法获取缓存key的值");
         if (key.equals("name")) {
             throw new RuntimeException("调用了该方法获取缓存key的值的时候出现异常");
         }
-        return bookService.findOne();
+        return Book.of(key);
     }
 
     @RequestMapping("/testManual")
@@ -75,7 +78,7 @@ public class CaffeineCacheController {
         manualCache.invalidate(key);
 
         ConcurrentMap<String, Object> map = manualCache.asMap();
-        System.out.println(map.toString());
+        log.info(map.toString());
         return graph;
     }
 
@@ -90,7 +93,6 @@ public class CaffeineCacheController {
         // 获取组key的值返回一个Map
         List<String> keys = new ArrayList<>();
         keys.add(key);
-        Map<String, Object> graphs = loadingCache.getAll(keys);
         return graph;
     }
 
@@ -110,66 +112,69 @@ public class CaffeineCacheController {
         return graph;
     }
 
-    @RequestMapping("/testSizeBased")
-    public Object testSizeBased(Book person) {
+    @Test
+    public void testSizeBased() {
         LoadingCache<String, Object> cache = Caffeine.newBuilder()
                 .maximumSize(1)
                 .build(k -> createExpensiveGraph(k));
 
         cache.get("A");
-        System.out.println(cache.estimatedSize());
+        log.info(cache.estimatedSize() + "");
         cache.get("B");
         // 因为执行回收的方法是异步的，所以需要调用该方法，手动触发一次回收操作。
         cache.cleanUp();
-        System.out.println(cache.estimatedSize());
+        log.info(cache.estimatedSize() + "");
 
-        return "";
     }
 
-    @RequestMapping("/testTimeBased")
-    public Object testTimeBased(Book person) {
+    /**
+     * 基于时间进行回收
+     * 1. expireAfterAccess，读写后设置5s的缓存时间，如果数据一直被读取，那么数据就一直在缓存中
+     * 2. expireAfterWrite，写入后设置5s的缓存时间
+     * 3. 自定义
+     */
+    @Test
+    public void testTimeBased() {
         String key = "name1";
         // 用户测试，一个时间源，返回一个时间值，表示从某个固定但任意时间点开始经过的纳秒数。
         FakeTicker ticker = new FakeTicker();
 
-        // 基于固定的到期策略进行退出
-        // expireAfterAccess
+        // expireAfterAccess，读写后设置5s的缓存时间
         LoadingCache<String, Object> cache1 = Caffeine.newBuilder()
                 .ticker(ticker::read)
                 .expireAfterAccess(5, TimeUnit.SECONDS)
                 .build(k -> createExpensiveGraph(k));
 
-        System.out.println("expireAfterAccess：第一次获取缓存");
+        log.info("expireAfterAccess：第一次获取缓存");
         cache1.get(key);
 
-        System.out.println("expireAfterAccess：等待4.9S后，第二次次获取缓存");
+        log.info("expireAfterAccess：等待4.9S后，第二次获取缓存");
         // 直接指定时钟
         ticker.advance(4900, TimeUnit.MILLISECONDS);
         cache1.get(key);
 
-        System.out.println("expireAfterAccess：等待0.101S后，第三次次获取缓存");
+        log.info("expireAfterAccess：等待0.101S后，第三次次获取缓存");
         ticker.advance(101, TimeUnit.MILLISECONDS);
-        cache1.get(key);
+        cache1.get(key);    // 数据还在 cache 中
 
-        // expireAfterWrite
+        // expireAfterWrite，写入后设置5s的缓存时间
         LoadingCache<String, Object> cache2 = Caffeine.newBuilder()
                 .ticker(ticker::read)
                 .expireAfterWrite(5, TimeUnit.SECONDS)
                 .build(k -> createExpensiveGraph(k));
 
-        System.out.println("expireAfterWrite：第一次获取缓存");
+        log.info("expireAfterWrite：第一次获取缓存");
         cache2.get(key);
 
-        System.out.println("expireAfterWrite：等待4.9S后，第二次次获取缓存");
+        log.info("expireAfterWrite：等待4.9S后，第二次次获取缓存");
         ticker.advance(4900, TimeUnit.MILLISECONDS);
         cache2.get(key);
 
-        System.out.println("expireAfterWrite：等待0.101S后，第三次次获取缓存");
+        log.info("expireAfterWrite：等待0.101S后，第三次次获取缓存");
         ticker.advance(101, TimeUnit.MILLISECONDS);
-        cache2.get(key);
+        cache2.get(key);    // 数据已经不在 cache 中
 
-        // Evict based on a varying expiration policy
-        // 基于不同的到期策略进行退出
+        // 自定义过期时间
         LoadingCache<String, Object> cache3 = Caffeine.newBuilder()
                 .ticker(ticker::read)
                 .expireAfter(new Expiry<String, Object>() {
@@ -183,37 +188,34 @@ public class CaffeineCacheController {
                     @Override
                     public long expireAfterUpdate(String key, Object graph,
                                                   long currentTime, long currentDuration) {
-
-                        System.out.println("调用了 expireAfterUpdate：" + TimeUnit.NANOSECONDS.toMillis(currentDuration));
+                        log.info("调用了 expireAfterUpdate：" + TimeUnit.NANOSECONDS.toMillis(currentDuration));
                         return currentDuration;
                     }
 
                     @Override
                     public long expireAfterRead(String key, Object graph,
                                                 long currentTime, long currentDuration) {
-
-                        System.out.println("调用了 expireAfterRead：" + TimeUnit.NANOSECONDS.toMillis(currentDuration));
+                        log.info("调用了 expireAfterRead：" + TimeUnit.NANOSECONDS.toMillis(currentDuration));
                         return currentDuration;
                     }
                 })
                 .build(k -> createExpensiveGraph(k));
 
-        System.out.println("expireAfter：第一次获取缓存");
+        log.info("expireAfter：第一次获取缓存");
         cache3.get(key);
 
-        System.out.println("expireAfter：等待4.9S后，第二次次获取缓存");
+        log.info("expireAfter：等待4.9S后，第二次次获取缓存");
         ticker.advance(4900, TimeUnit.MILLISECONDS);
         cache3.get(key);
 
-        System.out.println("expireAfter：等待0.101S后，第三次次获取缓存");
+        log.info("expireAfter：等待0.101S后，第三次次获取缓存");
         ticker.advance(101, TimeUnit.MILLISECONDS);
         Object object = cache3.get(key);
 
-        return object;
     }
 
-    @RequestMapping("/testRemoval")
-    public Object testRemoval(Book person) {
+    @Test
+    public void testRemoval() {
         String key = "name1";
         // 用户测试，一个时间源，返回一个时间值，表示从某个固定但任意时间点开始经过的纳秒数。
         FakeTicker ticker = new FakeTicker();
@@ -227,55 +229,51 @@ public class CaffeineCacheController {
                 .expireAfterAccess(5, TimeUnit.SECONDS)
                 .build(k -> createExpensiveGraph(k));
 
-        System.out.println("第一次获取缓存");
+        log.info("第一次获取缓存");
         Object object = cache.get(key);
 
-        System.out.println("等待6S后，第二次次获取缓存");
+        log.info("等待6S后，第二次次获取缓存");
         // 直接指定时钟
         ticker.advance(6000, TimeUnit.MILLISECONDS);
         cache.get(key);
 
-        System.out.println("手动删除缓存");
+        log.info("手动删除缓存");
         cache.invalidate(key);
 
-        return object;
     }
 
-    @RequestMapping("/testRefresh")
-    public Object testRefresh(Book person) {
+    @Test
+    public void testRefresh() throws InterruptedException {
         String key = "name1";
         // 用户测试，一个时间源，返回一个时间值，表示从某个固定但任意时间点开始经过的纳秒数。
-        FakeTicker ticker = new FakeTicker();
 
         // 基于固定的到期策略进行退出
         // expireAfterAccess
         LoadingCache<String, Object> cache = Caffeine.newBuilder()
                 .removalListener((String k, Object graph, RemovalCause cause) ->
                         System.out.printf("执行移除监听器- Key %s was removed (%s)%n", k, cause))
-                .ticker(ticker::read)
                 .expireAfterWrite(5, TimeUnit.SECONDS)
                 // 指定在创建缓存或者最近一次更新缓存后经过固定的时间间隔，刷新缓存
                 .refreshAfterWrite(4, TimeUnit.SECONDS)
                 .build(k -> createExpensiveGraph(k));
 
-        System.out.println("第一次获取缓存");
+        log.info("第一次获取缓存");
         Object object = cache.get(key);
 
-        System.out.println("等待4.1S后，第二次次获取缓存");
-        // 直接指定时钟
-        ticker.advance(4100, TimeUnit.MILLISECONDS);
+        Thread.sleep(4100);
+        log.info("等待4.1S后，第二次次获取缓存");
         cache.get(key);
 
-        System.out.println("等待5.1S后，第三次次获取缓存");
-        // 直接指定时钟
-        ticker.advance(5100, TimeUnit.MILLISECONDS);
+        Thread.sleep(1000);
+        log.info("等待5.1S后，第三次次获取缓存");
         cache.get(key);
-
-        return object;
     }
 
-    @RequestMapping("/testWriter")
-    public Object testWriter(Book person) {
+    /**
+     * 将缓存中的数据写入外部存储，持久化数据放置丢失
+     */
+    @Test
+    public void testWriter() {
         String key = "name1";
         // 用户测试，一个时间源，返回一个时间值，表示从某个固定但任意时间点开始经过的纳秒数。
         FakeTicker ticker = new FakeTicker();
@@ -307,27 +305,29 @@ public class CaffeineCacheController {
                 .refreshAfterWrite(4, TimeUnit.SECONDS)
                 .build(k -> createExpensiveGraph(k));
 
-        cache.put(key, bookService.findOne());
+        cache.put(key, bookService.getOne());
         cache.invalidate(key);
 
-        System.out.println("第一次获取缓存");
+        log.info("第一次获取缓存");
         Object object = cache.get(key);
 
-        System.out.println("等待4.1S后，第二次次获取缓存");
+        log.info("等待4.1S后，第二次次获取缓存");
         // 直接指定时钟
         ticker.advance(4100, TimeUnit.MILLISECONDS);
         cache.get(key);
 
-        System.out.println("等待5.1S后，第三次次获取缓存");
+        log.info("等待5.1S后，第三次次获取缓存");
         // 直接指定时钟
         ticker.advance(5100, TimeUnit.MILLISECONDS);
         cache.get(key);
 
-        return object;
     }
 
-    @RequestMapping("/testStatistics")
-    public Object testStatistics(Book person) {
+    /**
+     * 统计缓存的运行状况
+     */
+    @Test
+    public void testStatistics() {
         String key = "name1";
         // 用户测试，一个时间源，返回一个时间值，表示从某个固定但任意时间点开始经过的纳秒数。
         FakeTicker ticker = new FakeTicker();
@@ -354,16 +354,15 @@ public class CaffeineCacheController {
         // 手动触发一次回收操作
         cache.cleanUp();
 
-        System.out.println("缓存命数量：" + cache.stats().hitCount());
-        System.out.println("缓存命中率：" + cache.stats().hitRate());
-        System.out.println("缓存逐出的数量：" + cache.stats().evictionCount());
-        System.out.println("加载新值所花费的平均时间：" + cache.stats().averageLoadPenalty());
+        log.info("缓存命数量：" + cache.stats().hitCount());
+        log.info("缓存命中率：" + cache.stats().hitRate());
+        log.info("缓存逐出的数量：" + cache.stats().evictionCount());
+        log.info("加载新值所花费的平均时间：" + cache.stats().averageLoadPenalty());
 
-        return cache.get(key);
     }
 
-    @RequestMapping("/testPolicy")
-    public Object testPolicy(Book person) {
+    @Test
+    public void testPolicy() {
         FakeTicker ticker = new FakeTicker();
 
         LoadingCache<String, Object> cache = Caffeine.newBuilder()
@@ -381,7 +380,7 @@ public class CaffeineCacheController {
         cache.get("B");
         cache.get("C");
         cache.cleanUp();
-        System.out.println(cache.estimatedSize() + ":" + JSON.toJSON(cache.asMap()).toString());
+        log.info(cache.estimatedSize() + ":" + JSON.toJSON(cache.asMap()).toString());
 
         cache.get("A");
         ticker.advance(100, TimeUnit.MILLISECONDS);
@@ -397,16 +396,15 @@ public class CaffeineCacheController {
             // 获取冷数据Map
             Map<String, Object> coldestMap = eviction.coldest(10);
 
-            System.out.println("热点数据:" + JSON.toJSON(hottestMap).toString());
-            System.out.println("冷数据:" + JSON.toJSON(coldestMap).toString());
+            log.info("热点数据:" + JSON.toJSON(hottestMap).toString());
+            log.info("冷数据:" + JSON.toJSON(coldestMap).toString());
         });
 
         ticker.advance(3000, TimeUnit.MILLISECONDS);
         // ageOf通过这个方法来查看key的空闲时间
         cache.policy().expireAfterAccess().ifPresent(expiration -> {
 
-            System.out.println(JSON.toJSON(expiration.ageOf("A", TimeUnit.MILLISECONDS)));
+            log.info(JSON.toJSON(expiration.ageOf("A", TimeUnit.MILLISECONDS)) + "");
         });
-        return cache.get("name1");
     }
 }
