@@ -51,6 +51,7 @@ public class SpringBucksApplication implements ApplicationRunner {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBucksApplication.class, args);
 	}
+
 	@Bean
 	public RedisCustomConversions redisCustomConversions() {
 		return new RedisCustomConversions(
