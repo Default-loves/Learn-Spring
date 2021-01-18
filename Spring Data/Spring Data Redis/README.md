@@ -1,6 +1,10 @@
-the template takes care of serialization and connection management
+ 
+
+RedisTemplate 包含了序列化(serialization)和连接管理(connection management)
 
 使用 RedisTemplate 读写 Redis，序列化和反序列化使用的是 java 的实现
+
+StringRedisTemplate 使用 String 序列化数据
 
 - @Cacheable：一般使用在查询方法
 - @CachePut：一般使用在新增方法

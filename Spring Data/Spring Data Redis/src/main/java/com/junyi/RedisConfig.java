@@ -37,13 +37,15 @@ public class RedisConfig {
 
     @Bean
     public RedisTemplate<String, Object> redisTemplate(RedisConnectionFactory redisConnectionFactory) {
-        RedisSerializer<Object> serializer = redisSerializer();
         RedisTemplate<String, Object> redisTemplate = new RedisTemplate<>();
         redisTemplate.setConnectionFactory(redisConnectionFactory);
         redisTemplate.setKeySerializer(new StringRedisSerializer());
-        redisTemplate.setValueSerializer(serializer);
         redisTemplate.setHashKeySerializer(new StringRedisSerializer());
+
+        RedisSerializer<Object> serializer = redisSerializer();
+        redisTemplate.setValueSerializer(serializer);
         redisTemplate.setHashValueSerializer(serializer);
+
         redisTemplate.afterPropertiesSet();
         return redisTemplate;
     }

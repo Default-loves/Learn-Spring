@@ -15,12 +15,15 @@ import org.springframework.data.redis.connection.lettuce.LettuceConnectionFactor
 @Configuration
 public class SentinalConfig {
 
-//    @Bean
-//    public RedisConnectionFactory lettuceConnectionFactory() {
-//        RedisSentinelConfiguration sentinelConfig = new RedisSentinelConfiguration()
-//                .master("my-master")
-//                .sentinel("127.0.0.1", 26379)
-//                .sentinel("127.0.0.1", 26380);
-//        return new LettuceConnectionFactory(sentinelConfig);
-//    }
+    /*
+    @Bean
+    public RedisConnectionFactory lettuceConnectionFactory() {
+        RedisSentinelConfiguration sentinelConfig = new RedisSentinelConfiguration()
+                .master("my-master")
+                .sentinel("127.0.0.1", 26379)
+                .sentinel("127.0.0.1", 26380);
+        return new LettuceConnectionFactory(sentinelConfig);
+    }
+     */
+
 }
