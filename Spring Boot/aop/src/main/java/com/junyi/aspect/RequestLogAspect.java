@@ -84,7 +84,7 @@ public class RequestLogAspect {
     }
 
     private Map<String, Object> getRequestParamsByJoinPoint(JoinPoint joinPoint) {
-        //参数名
+        // 参数名
         String[] paramNames = ((MethodSignature)joinPoint.getSignature()).getParameterNames();
         //参数值
         Object[] paramValues = joinPoint.getArgs();
@@ -96,13 +96,11 @@ public class RequestLogAspect {
         Map<String, Object> requestParams = new HashMap<>();
         for (int i = 0; i < paramNames.length; i++) {
             Object value = paramValues[i];
-
             //如果是文件对象
             if (value instanceof MultipartFile) {
                 MultipartFile file = (MultipartFile) value;
                 value = file.getOriginalFilename();  //获取文件名
             }
-
             requestParams.put(paramNames[i], value);
         }
 
