@@ -55,9 +55,9 @@ public class Application implements CommandLineRunner {
             @Override
             public Object doInRedis(RedisConnection connection) throws DataAccessException {
                 log.info(connection.dbSize() + "");
-                ((RedisConnection) connection).set("")
+                return null;
             }
-        })
+        });
 
     }
 }
