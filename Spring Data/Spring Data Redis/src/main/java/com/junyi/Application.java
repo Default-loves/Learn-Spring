@@ -11,11 +11,6 @@ import org.springframework.dao.DataAccessException;
 import org.springframework.data.redis.connection.RedisConnection;
 import org.springframework.data.redis.core.RedisCallback;
 import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.data.redis.core.StringRedisTemplate;
-
-import java.awt.print.Book;
-import java.awt.print.Paper;
-import java.util.concurrent.TimeUnit;
 
 /**
  * @time: 2021/1/16 11:49

@@ -1,9 +1,6 @@
 package com.junyi;
 
 import com.junyi.entity.Water;
-import org.springframework.cache.annotation.CacheEvict;
-import org.springframework.cache.annotation.Cacheable;
-import org.springframework.stereotype.Service;
 
 /**
  * @time: 2021/1/16 14:33
