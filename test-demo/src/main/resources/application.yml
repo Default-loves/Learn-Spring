@@ -1,0 +1,23 @@
+
+
+
+
+server:
+  port: 12345
+
+spring:
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/db_example?serverTimezone=UTC&characterEncoding=utf-8
+    password: 123456
+    username: springuser
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+log4j:
+  appender:
+    stdout: org.apache.log4j.ConsoleAppender
+    stdout.layout: org.apache.log4j.PatternLayout
+    stdout.layout.ConversionPattern: '%5p [%t] - %m'
+  rootLogger: ERROR, stdout
+
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml

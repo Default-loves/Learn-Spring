@@ -1,0 +1,24 @@
+[2021-01-26 10:39:12.012] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting HelloWorldApplication on DESKTOP-IVESJ8P with PID 22492 (F:\GithubMy\my\learn-spring\Spring Boot\hello-world\target\classes started by Administrator in F:\GithubMy\my\learn-spring\Spring Boot\hello-world)
+[2021-01-26 10:39:12.012] [org.springframework.boot.SpringApplication] [restartedMain] [651] [INFO ] No active profile set, falling back to default profiles: default
+[2021-01-26 10:39:12.012] [org.springframework.boot.logging.DeferredLog] [restartedMain] [225] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2021-01-26 10:39:12.012] [org.springframework.boot.logging.DeferredLog] [restartedMain] [225] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2021-01-26 10:39:14.014] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 12345 (http)
+[2021-01-26 10:39:14.014] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing ProtocolHandler ["http-nio-12345"]
+[2021-01-26 10:39:14.014] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-01-26 10:39:14.014] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.37]
+[2021-01-26 10:39:14.014] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-01-26 10:39:14.014] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [285] [INFO ] Root WebApplicationContext: initialization completed in 1878 ms
+[2021-01-26 10:39:15.015] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-01-26 10:39:15.015] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-01-26 10:39:15.015] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [restartedMain] [58] [INFO ] Exposing 2 endpoint(s) beneath base path '/actuator'
+[2021-01-26 10:39:15.015] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting ProtocolHandler ["http-nio-12345"]
+[2021-01-26 10:39:15.015] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 12345 (http) with context path ''
+[2021-01-26 10:39:15.015] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started HelloWorldApplication in 4.652 seconds (JVM running for 6.358)
+[2021-01-26 10:39:16.016] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(3)-172.16.40.106] [110] [INFO ] HikariPool-1 - Starting...
+[2021-01-26 10:39:16.016] [org.apache.juli.logging.DirectJDKLog] [RMI TCP Connection(2)-172.16.40.106] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-01-26 10:39:16.016] [org.springframework.web.servlet.FrameworkServlet] [RMI TCP Connection(2)-172.16.40.106] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-01-26 10:39:16.016] [org.springframework.web.servlet.FrameworkServlet] [RMI TCP Connection(2)-172.16.40.106] [547] [INFO ] Completed initialization in 8 ms
+[2021-01-26 10:39:17.017] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(3)-172.16.40.106] [123] [INFO ] HikariPool-1 - Start completed.
+[2021-01-26 10:39:46.046] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-12345-exec-2] [143] [DEBUG] ==>  Preparing: select id, description, `name`, create_date_time, author_id from book 
+[2021-01-26 10:39:46.046] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-12345-exec-2] [143] [DEBUG] ==> Parameters: 
+[2021-01-26 10:39:46.046] [org.apache.ibatis.logging.jdbc.BaseJdbcLogger] [http-nio-12345-exec-2] [143] [DEBUG] <==      Total: 23

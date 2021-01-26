@@ -1,7 +1,0 @@
-[2020-10-22 18:43:15.015] [com.junyi.logging.service.BookService] [http-nio-12345-exec-1] [18] [INFO ] in com.junyi.logging.service.BookService
-[2020-10-22 18:43:15.015] [com.junyi.logging.service.BookService] [http-nio-12345-exec-1] [19] [WARN ] in com.junyi.logging.service.BookService
-[2020-10-22 18:43:15.015] [com.junyi.logging.service.BookService] [http-nio-12345-exec-1] [20] [ERROR] in com.junyi.logging.service.BookService
-[2020-10-22 18:44:56.056] [com.junyi.logging.service.BookService] [http-nio-12345-exec-9] [17] [DEBUG] in com.junyi.logging.service.BookService
-[2020-10-22 18:44:56.056] [com.junyi.logging.service.BookService] [http-nio-12345-exec-9] [18] [INFO ] in com.junyi.logging.service.BookService
-[2020-10-22 18:44:56.056] [com.junyi.logging.service.BookService] [http-nio-12345-exec-9] [19] [WARN ] in com.junyi.logging.service.BookService
-[2020-10-22 18:44:56.056] [com.junyi.logging.service.BookService] [http-nio-12345-exec-9] [20] [ERROR] in com.junyi.logging.service.BookService
