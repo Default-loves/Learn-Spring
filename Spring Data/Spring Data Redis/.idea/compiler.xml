@@ -2,15 +2,26 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Spring Data Redis" />
+        <module name="common" />
+        <module name="redis-repository-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="common" target="15" />
+      <module name="redis-repository-demo" target="8" />
       <module name="Spring Data Redis" target="8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Spring Data Redis" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="redis-repository-demo" options="-parameters" />
+    </option>
   </component>
 </project>

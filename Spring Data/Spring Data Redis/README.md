@@ -6,6 +6,16 @@ RedisTemplate 包含了序列化(serialization)和连接管理(connection manage
 
 StringRedisTemplate 使用 String 序列化数据
 
+使用于 Redis Repository 中 RedisTemplate 需要无事务
+
+### Redis客户端
+Redis客户端主要有两个：Jedis和Lettuce
+
+两者的区别见。。。
+
+
+
+### @CacheXXX相关
 - @Cacheable：一般使用在查询方法
 - @CachePut：一般使用在新增方法
 - @CacheEvict：一般使用在更新或删除方法上
