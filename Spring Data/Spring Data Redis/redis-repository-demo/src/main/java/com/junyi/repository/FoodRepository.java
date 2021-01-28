@@ -2,6 +2,7 @@ package com.junyi.repository;
 
 import com.junyi.entity.Food;
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 
 /**
  * @time: 2021/1/27 15:19
@@ -9,6 +10,5 @@ import org.springframework.data.repository.CrudRepository;
  * @author: junyi Xu
  * @description:
  */
-
 public interface FoodRepository extends CrudRepository<Food, String> {
 }

@@ -43,4 +43,10 @@ public class FoodController {
         foodService.test(food);
         return "OK";
     }
+
+    @GetMapping("/test2")
+    public String test2() {
+        foodService.testTemplate();
+        return "OK";
+    }
 }

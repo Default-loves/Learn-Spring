@@ -1,4 +1,4 @@
-package com.junyi;
+package com.junyi.config;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
@@ -15,7 +15,9 @@ import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.data.redis.connection.RedisStandaloneConfiguration;
 import org.springframework.data.redis.connection.lettuce.LettuceClientConfiguration;
 import org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory;
+import org.springframework.data.redis.core.RedisKeyValueTemplate;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.convert.DefaultRedisTypeMapper;
 import org.springframework.data.redis.core.convert.RedisCustomConversions;
 import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 import org.springframework.data.redis.serializer.RedisSerializer;
@@ -25,6 +27,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
+ * Redis 配置类
  * @time: 2021/1/16 11:49
  * @version: 1.0
  * @author: junyi Xu

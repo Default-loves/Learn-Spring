@@ -1,4 +1,4 @@
-package com.junyi;
+package com.junyi.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

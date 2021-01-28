@@ -18,7 +18,7 @@ public class ByteToCreatorConverter implements Converter<byte[], Creator> {
     private Jackson2JsonRedisSerializer<Creator> serializer;
 
     public ByteToCreatorConverter() {
-        serializer = new Jackson2JsonRedisSerializer<Creator>(Creator.class);
+        serializer = new Jackson2JsonRedisSerializer<>(Creator.class);
         serializer.setObjectMapper(new ObjectMapper());
     }
 

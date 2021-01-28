@@ -30,20 +30,16 @@ public class FoodService {
 
     @Autowired
     FoodMapper foodMapper;
-
-    // inject the actual template
     @Autowired
-    private RedisTemplate<String, String> template;
-
+    private RedisTemplate<String, String> template;     // 直接注入
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
-
-    // inject the template as ListOperations
     @Resource(name="redisTemplate")
-    private ListOperations<String, Object> listOps;
+    private ListOperations<String, Object> listOps;     // 注入 List 操作类, 当然了也可以注入其他的, 查看 template.opsXXX 可以看到支持的Redis类型
 
     public Food getOne(Integer id) {
         return foodMapper.getById(id);
+
     }
 
     public List<Food> listAll() {
@@ -53,6 +49,14 @@ public class FoodService {
     @Transactional
     public void test(Food food) {
         listOps.leftPush(String.valueOf(food.getId()), JSON.toJSONString(food));
+    }
+
+    public void testTemplate() {
+        Food apple = Food.builder()
+                .id(1)
+                .name("apple")
+                .build();
+        template.opsForSet().add("food", JSON.toJSONString(apple));
     }
 
     /**

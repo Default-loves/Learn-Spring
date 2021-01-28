@@ -1,4 +1,4 @@
-package com.junyi;
+package com.junyi.config;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;

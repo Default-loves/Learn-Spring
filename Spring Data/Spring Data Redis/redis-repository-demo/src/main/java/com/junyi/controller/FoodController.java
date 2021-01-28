@@ -1,9 +1,12 @@
 package com.junyi.controller;
 
 import com.junyi.entity.Food;
+import com.junyi.service.FoodExampleService;
 import com.junyi.service.FoodService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 /**
  * @time: 2021/1/26 9:49
@@ -23,6 +26,11 @@ public class FoodController {
         return null;
     }
 
+    @GetMapping("/getAll")
+    public List<Food> getAll() {
+        return foodService.listFoods();
+    }
+
     @PostMapping("/delete")
     public String delete(@RequestBody Food food) {
         foodService.delete(food);
@@ -32,6 +40,12 @@ public class FoodController {
     @PostMapping("/add")
     public String add(@RequestBody Food food) {
         foodService.insert(food);
+        return "OK";
+    }
+
+    @PostMapping("/test")
+    public String test(@RequestBody Food food) {
+        foodService.testPartialUpdate(food);
         return "OK";
     }
 }
