@@ -14,7 +14,8 @@ import javax.sql.DataSource;
 import java.sql.SQLException;
 
 /**
- * Redis 使用事务需要进行以下配置才能生效
+ * Redis 使用事务需要进行以下配置
+ *
  * @time: 2021/1/27 14:45
  * @version: 1.0
  * @author: junyi Xu

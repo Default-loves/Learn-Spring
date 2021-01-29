@@ -26,4 +26,22 @@ public class Application  {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
+
+
+    public String get(String key) {
+        String value = redis.get(key);
+        if (value != null) { //代表缓存值没过期
+            return value;
+        }
+        // 缓存过期，先去获取互斥锁
+        //设置3min的超时，防止del操作失败的时候，下次缓存过期一直不能load db
+        if (redis.setnx(key_mutex, 1, 3 * 60) == 1) {  //代表设置成功
+            value = db.get(key);    // 从数据库获取数据
+            redis.set(key, value, expire_secs);
+            redis.del(key_mutex);
+        } else {  //这个时候代表同时候的其他线程已经loaddb并回设到缓存了，这时候重试获取缓存值即可
+            sleep(50);
+            get(key);  //重试
+        }
+    }
 }
