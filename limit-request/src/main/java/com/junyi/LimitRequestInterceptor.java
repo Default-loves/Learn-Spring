@@ -3,8 +3,8 @@ package com.junyi;
 import com.alibaba.fastjson.JSON;
 import com.junyi.annotation.LimitRequest;
 import com.junyi.entity.Result;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.stereotype.Component;
@@ -13,7 +13,9 @@ import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.xml.bind.DatatypeConverter;
 import java.io.OutputStream;
+import java.security.MessageDigest;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -23,10 +25,11 @@ import java.util.concurrent.TimeUnit;
  * @description:
  */
 @Component
-public class LimitRequestInteceptor extends HandlerInterceptorAdapter {
+@Slf4j
+public class LimitRequestInterceptor extends HandlerInterceptorAdapter {
 
     @Autowired
-    RedisTemplate<String, Object> redisTemplate;
+    StringRedisTemplate redisTemplate;
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
@@ -40,7 +43,8 @@ public class LimitRequestInteceptor extends HandlerInterceptorAdapter {
             int seconds = limitRequest.seconds();
             int maxCount = limitRequest.maxCount();
             boolean login = limitRequest.needLogin();
-            String key = request.getRequestURI();
+            String key = generateKey(request);
+
             //如果需要登录
             if(login){
                 //获取登录的session进行判断
@@ -49,24 +53,47 @@ public class LimitRequestInteceptor extends HandlerInterceptorAdapter {
             }
 
             //从redis中获取用户访问的次数
-            ValueOperations<String, Object> ops = redisTemplate.opsForValue();
-            String cnt = (String) ops.get(key);
+            ValueOperations<String, String> ops = redisTemplate.opsForValue();
+            String cnt = ops.get(key);
 
             if(cnt == null){
                 //第一次访问
                 ops.set(key, "1", seconds, TimeUnit.SECONDS);
             }else if(Integer.parseInt(cnt)  < maxCount){
                 //加1
-                ops.increment(key);
+                ops.increment(key, 1L);
             }else{
                 //超出访问次数
-                render(response); //这里的CodeMsg是一个返回参数
+                render(response);
                 return false;
             }
         }
         return true;
 
     }
+
+    /** 创建 Key，由请求的 ip 和 uri 组成，作为Redis 的Key */
+    private String generateKey(HttpServletRequest request) {
+        String ip = request.getRemoteAddr();
+        String uri = request.getRequestURI();
+        String key = ip + ":" + uri;
+        return jdkMD5(key);
+    }
+
+
+    /** 使用 MD5 算法获得摘要 */
+    private static String jdkMD5(String src) {
+        String res = null;
+        try {
+            MessageDigest messageDigest = MessageDigest.getInstance("MD5");
+            byte[] mdBytes = messageDigest.digest(src.getBytes());
+            res = DatatypeConverter.printHexBinary(mdBytes);
+        } catch (Exception e) {
+            log.error("",e);
+        }
+        return res;
+    }
+
     private void render(HttpServletResponse response)throws Exception {
         response.setContentType("application/json;charset=UTF-8");
         OutputStream out = response.getOutputStream();

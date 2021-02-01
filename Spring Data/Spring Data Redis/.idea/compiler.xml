@@ -12,7 +12,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="common" target="15" />
+      <module name="common" target="8" />
       <module name="redis-repository-demo" target="8" />
       <module name="Spring Data Redis" target="8" />
     </bytecodeTargetLevel>

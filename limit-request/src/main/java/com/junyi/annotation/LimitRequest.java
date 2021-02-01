@@ -14,7 +14,7 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
 public @interface LimitRequest {
-    int seconds();
-    int maxCount();
+    int seconds() default 60;
+    int maxCount() default 5;
     boolean needLogin() default true;
 }

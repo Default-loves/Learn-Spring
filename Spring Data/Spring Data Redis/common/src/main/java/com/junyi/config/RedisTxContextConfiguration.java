@@ -25,29 +25,29 @@ import java.sql.SQLException;
 @EnableTransactionManagement
 public class RedisTxContextConfiguration {
 
-    @Bean
-    public StringRedisTemplate redisTemplate() {
-        StringRedisTemplate template = new StringRedisTemplate(redisConnectionFactory());
-        // explicitly enable transaction support
-        template.setEnableTransactionSupport(true);
-        return template;
-    }
-
-    @Bean
-    public RedisConnectionFactory redisConnectionFactory() {
-        RedisStandaloneConfiguration serverConfig = new RedisStandaloneConfiguration();
-
-        return new LettuceConnectionFactory(serverConfig);
-    }
-
-    @Bean
-    public PlatformTransactionManager transactionManager() throws SQLException {
-        return new DataSourceTransactionManager(dataSource());
-    }
-
-    @Bean
-    public DataSource dataSource() throws SQLException {
-        // ...
-        return null;
-    }
+//    @Bean
+//    public StringRedisTemplate redisTemplate() {
+//        StringRedisTemplate template = new StringRedisTemplate(redisConnectionFactory());
+//        // explicitly enable transaction support
+//        template.setEnableTransactionSupport(true);
+//        return template;
+//    }
+//
+//    @Bean
+//    public RedisConnectionFactory redisConnectionFactory() {
+//        RedisStandaloneConfiguration serverConfig = new RedisStandaloneConfiguration();
+//
+//        return new LettuceConnectionFactory(serverConfig);
+//    }
+//
+//    @Bean
+//    public PlatformTransactionManager transactionManager() throws SQLException {
+//        return new DataSourceTransactionManager(dataSource());
+//    }
+//
+//    @Bean
+//    public DataSource dataSource() throws SQLException {
+//        // ...
+//        return null;
+//    }
 }
