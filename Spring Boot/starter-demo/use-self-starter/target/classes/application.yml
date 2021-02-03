@@ -1,0 +1,7 @@
+server:
+  port: 12345
+
+com:
+  junyi:
+    enabled: true
+    string: the, hello, apple

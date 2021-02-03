@@ -1,0 +1,4 @@
+com\junyi\MyConfigurationProperties.class
+com\junyi\MyStringService.class
+com\junyi\StarterAutoConfiguration.class
+META-INF\spring-autoconfigure-metadata.properties
