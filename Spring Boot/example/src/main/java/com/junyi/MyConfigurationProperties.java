@@ -1,23 +1,19 @@
 package com.junyi;
 
 import lombok.Data;
-import lombok.ToString;
 import org.springframework.boot.context.properties.ConfigurationProperties;
-
-import java.awt.print.Book;
+import org.springframework.stereotype.Component;
 
 /**
- * @time: 2021/2/3 16:56
+ * @time: 2021/2/4 9:53
  * @version: 1.0
  * @author: junyi Xu
  * @description:
  */
 @ConfigurationProperties(prefix = "com.junyi")
+//@Component
 @Data
-@ToString
 public class MyConfigurationProperties {
-
-    private Boolean enable;
+    private Integer id;
     private String name;
-    private String clientId;
 }

@@ -3,5 +3,6 @@ server:
 
 com:
   junyi:
-    enabled: true
-    string: the, hello, apple
+    enable: true
+    name: app-003
+    clientId: simple-client

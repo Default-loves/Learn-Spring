@@ -10,16 +10,24 @@ import java.util.List;
  */
 public class MyToolService {
 
-    private String string;
+    private MyConfigurationProperties properties;
 
     public MyToolService() {
     }
 
-    public Long sum(List<Integer> list) {
-        return list.stream().count();
+    public MyToolService(MyConfigurationProperties properties) {
+        this.properties = properties;
+    }
+
+    public Integer sum(List<Integer> list) {
+        return list.stream().mapToInt(Integer::intValue).sum();
     }
 
     public Integer gcd(Integer a, Integer b) {
         return b == 0 ? a: gcd(b, a % b);
+    }
+
+    public String getProperties() {
+        return properties.toString();
     }
 }

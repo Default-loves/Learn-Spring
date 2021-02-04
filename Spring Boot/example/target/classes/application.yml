@@ -5,13 +5,13 @@ server:
 spring:
   application:
     name: menu123
-  cloud:
-    nacos:
-      config:
-        server-addr: 127.0.0.1:8848
-        file-extension: properties
-        prefix:
-        group: DEV_GROUP
+#  cloud:
+#    nacos:
+#      config:
+#        server-addr: 127.0.0.1:8848
+#        file-extension: properties
+#        prefix:
+#        group: DEV_GROUP
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/db_example?serverTimezone=UTC&characterEncoding=utf-8
@@ -25,3 +25,8 @@ spring:
     timeout: 1000ms # 连接超时时间
   profiles:
     active: dev
+
+com:
+  junyi:
+    id: 13
+    name: fruit

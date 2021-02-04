@@ -35,9 +35,8 @@ public class StarterAutoConfiguration {
 
     @Bean
     @ConditionalOnMissingBean
-    @ConditionalOnProperty(prefix = "com.junyi", value = "enabled", havingValue = "true")
-    MyToolService myStringService() {
-        log.info("enable:{}, name:{}, clientId:{}", properties.getEnabled(), properties.getName(), properties.getClientId());
-        return new MyToolService();
+    @ConditionalOnProperty(prefix = "com.junyi", value = "enable", havingValue = "true")
+    MyToolService myToolService() {
+        return new MyToolService(properties);
     }
 }
