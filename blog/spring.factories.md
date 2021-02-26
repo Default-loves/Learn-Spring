@@ -1,4 +1,4 @@
-`spring.factories`文件放置的位置：`META-INF\spring.factories`，作用类似于Java的SPI，实现模块之间的解耦，能够自动创建实现类的实例，并且放置到Spring容器中，由Spring进行管理
+`spring.factories`文件放置的位置：`META-INF\spring.factories`，作用类似于Java的SPI，实现模块之间的解耦，能够自动创建实现类的实例，并且添加到Spring容器中，由Spring进行管理
 
 spring.factories文件的内容如下：
 
@@ -36,7 +36,7 @@ private static Map<String, List<String>> loadSpringFactories(@Nullable ClassLoad
     try {
         // 通过classLoader获取全部的META-INF/spring.factories文件
         Enumeration<URL> urls = (classLoader != null ?classLoader.getResources(FACTORIES_RESOURCE_LOCATION) :                                 ClassLoader.getSystemResources(FACTORIES_RESOURCE_LOCATION));
-        result = new LinkedMultiValueMap<>();
+        result = new LinkedMultiValueMap<>();		// 最终返回的结果
         while (urls.hasMoreElements()) {
             URL url = urls.nextElement();
             UrlResource resource = new UrlResource(url);
