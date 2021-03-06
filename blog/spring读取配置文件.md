@@ -186,7 +186,6 @@ public class ReadConfigPropertiesApplication implements InitializingBean {
         System.out.println(profileProperties.toString());
     }
 }
-
 ```
 
 因为我们的邮箱格式不正确，所以程序运行的时候就报错，根本运行不起来，保证了数据类型的安全性：
@@ -238,8 +237,6 @@ System.out.println(webSite.getUrl());//https://javaguide.cn/
 ### 5.题外话:Spring加载配置文件的优先级
 
 Spring 读取配置文件也是有优先级的，直接上图：
-
-
 
 <img src="https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-11/read-config-properties-priority.jpg" style="zoom:50%;" />
 
