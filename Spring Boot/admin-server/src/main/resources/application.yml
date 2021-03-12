@@ -1,0 +1,12 @@
+
+server:
+  port: 9000
+spring:
+  application:
+    name: admin server
+  security:
+    user:
+      name: apple
+      password: Apple@123
+
+

@@ -8,6 +8,11 @@ server:
     url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/db_example?serverTimezone=UTC&characterEncoding=utf-8
     password: 123456
     username: springuser
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:9000
 
 log4j:
   appender:
@@ -31,3 +36,5 @@ management:
         include: "*"
 mybatis:
   mapper-locations: classpath:mapper/*Mapper.xml
+
+

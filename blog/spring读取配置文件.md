@@ -205,7 +205,9 @@ Binding to target org.springframework.boot.context.properties.bind.BindException
 ProfileProperties(name=Guide哥, email=koushuangbwcx@163.com, handsome=true)
 ```
 
-### 4.`@PropertySource`读取指定 properties 文件
+### 4.`@PropertySource`读取指定的properties 文件
+
+指定了读取配置的文件路径，能够减少获取配置所需要的时间
 
 ```java
 import lombok.Getter;
@@ -224,6 +226,17 @@ class WebSite {
 }
 ```
 
+如果有多个配置文件 ，则使用`@PropertySources`
+
+```java
+@PropertySources({
+    @PropertySource("classpath:application.properties "),
+    @PropertySource("classpath:redis.properties"),
+    @PropertySource("classpath:mq.properties")
+})
+public class SpringCssConfig {
+```
+
 使用：
 
 ```java
@@ -240,6 +253,5 @@ Spring 读取配置文件也是有优先级的，直接上图：
 
 <img src="https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-11/read-config-properties-priority.jpg" style="zoom:50%;" />
 
-更对内容请查看官方文档：https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-external-config
 
-> 本文源码：https://github.com/Snailclimb/springboot-guide/tree/master/source-code/basis/read-config-properties
+

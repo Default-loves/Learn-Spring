@@ -15,7 +15,6 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
  * @description:
  */
 @SpringBootApplication
-@EnableConfigurationProperties(MyConfigurationProperties.class)
 public class Application{
 
     public static void main(String[] args) {
